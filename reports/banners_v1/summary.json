@@ -1,0 +1,26 @@
+{
+  "labeled_banners": 2264,
+  "source_products": 155,
+  "labeled_splits": {
+    "train": 2048,
+    "validation": 72,
+    "test": 144
+  },
+  "source_splits": {
+    "train": 128,
+    "validation": 9,
+    "test": 18
+  },
+  "backgrounds": {
+    "solid_green": 1698,
+    "green_shade": 283,
+    "floor_gradient": 283
+  },
+  "gemini_derivatives": 348,
+  "gemini_splits": {
+    "train_weak": 304,
+    "solid_visual_test": 38,
+    "gradient_visual_test": 6
+  },
+  "new_api_requests": 0
+}

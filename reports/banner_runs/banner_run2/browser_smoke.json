@@ -1,0 +1,8 @@
+{
+  "model_sha256": "0add60eb5a878b1861d16c39418ba2e9d1e7aeb775731bc584de800de870469a",
+  "browser": "Codex in-app browser",
+  "url": "http://localhost:8766/web/?model=banner",
+  "observed_status": "Done \u2014 640 \u00d7 320 transparent PNG",
+  "download_link_visible": true,
+  "visual_check": "Product and offer headline retained; green background transparent."
+}

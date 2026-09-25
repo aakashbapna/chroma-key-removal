@@ -1,0 +1,4213 @@
+[
+  {
+    "id": 0,
+    "subject": "white running shoe with woven mesh and red laces",
+    "view": "front three-quarter view",
+    "prompt": "Create exactly ONE photorealistic ecommerce product image: white running shoe with woven mesh and red laces, front three-quarter view. Isolated fully visible product, centered with 20 percent margin. Every background pixel must be a flat solid pure green RGB(0,255,0), hexadecimal #00FF00, including all empty holes and spaces between handles, spokes or cables. No gradient, floor, horizon, background texture, background shadow, text, watermark, branding or additional objects. Realistic product materials, fine edges, studio lighting on the product only. Square image.",
+    "split": "test_visual_only",
+    "path": "datasets/generated_v3/000.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 118,
+      "candidatesTokenCount": 1454,
+      "totalTokenCount": 1572,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 118
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 0.554779052734375,
+    "background_border_spread": 0.8980392217636108,
+    "estimated_key": [
+      0.13333334028720856,
+      0.9176470637321472,
+      0.10196078568696976
+    ],
+    "background_qa_pass": false,
+    "original_path": "datasets/generated_v3/000.png"
+  },
+  {
+    "id": 1,
+    "subject": "white running shoe with woven mesh and red laces",
+    "view": "side view with fine product details visible",
+    "prompt": "Create exactly ONE photorealistic ecommerce product image: white running shoe with woven mesh and red laces, side view with fine product details visible. Isolated fully visible product, centered with 20 percent margin. Every background pixel must be a flat solid pure green RGB(0,255,0), hexadecimal #00FF00, including all empty holes and spaces between handles, spokes or cables. No gradient, floor, horizon, background texture, background shadow, text, watermark, branding or additional objects. Realistic product materials, fine edges, studio lighting on the product only. Square image.",
+    "split": "test_visual_only",
+    "path": "datasets/generated_v3/prepared/001.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 120,
+      "candidatesTokenCount": 1459,
+      "totalTokenCount": 1579,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 120
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.0470588281750679,
+    "estimated_key": [
+      0.12156862765550613,
+      0.8941176533699036,
+      0.0784313753247261
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/001.png",
+    "normalized_exterior_fraction": 0.7953195571899414
+  },
+  {
+    "id": 2,
+    "subject": "black over-ear headphones with thin cable",
+    "view": "front three-quarter view",
+    "prompt": "Create exactly ONE photorealistic ecommerce product image: black over-ear headphones with thin cable, front three-quarter view. Isolated fully visible product, centered with 20 percent margin. Every background pixel must be a flat solid pure green RGB(0,255,0), hexadecimal #00FF00, including all empty holes and spaces between handles, spokes or cables. No gradient, floor, horizon, background texture, background shadow, text, watermark, branding or additional objects. Realistic product materials, fine edges, studio lighting on the product only. Square image.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/002.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 117,
+      "candidatesTokenCount": 1434,
+      "totalTokenCount": 1551,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 117
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.04313725233078003,
+    "estimated_key": [
+      0.13333334028720856,
+      0.9215686321258545,
+      0.07450980693101883
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/002.png",
+    "normalized_exterior_fraction": 0.7149696350097656
+  },
+  {
+    "id": 3,
+    "subject": "black over-ear headphones with thin cable",
+    "view": "side view with fine product details visible",
+    "prompt": "Create exactly ONE photorealistic ecommerce product image: black over-ear headphones with thin cable, side view with fine product details visible. Isolated fully visible product, centered with 20 percent margin. Every background pixel must be a flat solid pure green RGB(0,255,0), hexadecimal #00FF00, including all empty holes and spaces between handles, spokes or cables. No gradient, floor, horizon, background texture, background shadow, text, watermark, branding or additional objects. Realistic product materials, fine edges, studio lighting on the product only. Square image.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/003.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 119,
+      "candidatesTokenCount": 1519,
+      "totalTokenCount": 1638,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 119
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 0.99664306640625,
+    "background_border_spread": 0.03921569883823395,
+    "estimated_key": [
+      0.239215686917305,
+      0.9176470637321472,
+      0.12156862765550613
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/003.png",
+    "normalized_exterior_fraction": 0.8933439254760742
+  },
+  {
+    "id": 4,
+    "subject": "amber perfume bottle with gold cap",
+    "view": "front three-quarter view",
+    "prompt": "Create exactly ONE photorealistic ecommerce product image: amber perfume bottle with gold cap, front three-quarter view. Isolated fully visible product, centered with 20 percent margin. Every background pixel must be a flat solid pure green RGB(0,255,0), hexadecimal #00FF00, including all empty holes and spaces between handles, spokes or cables. No gradient, floor, horizon, background texture, background shadow, text, watermark, branding or additional objects. Realistic product materials, fine edges, studio lighting on the product only. Square image.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/004.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 115,
+      "candidatesTokenCount": 1483,
+      "totalTokenCount": 1598,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 115
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.043137259781360626,
+    "estimated_key": [
+      0.12156862765550613,
+      0.8901960849761963,
+      0.0784313753247261
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/004.png",
+    "normalized_exterior_fraction": 0.7541208267211914
+  },
+  {
+    "id": 5,
+    "subject": "amber perfume bottle with gold cap",
+    "view": "side view with fine product details visible",
+    "prompt": "Create exactly ONE photorealistic ecommerce product image: amber perfume bottle with gold cap, side view with fine product details visible. Isolated fully visible product, centered with 20 percent margin. Every background pixel must be a flat solid pure green RGB(0,255,0), hexadecimal #00FF00, including all empty holes and spaces between handles, spokes or cables. No gradient, floor, horizon, background texture, background shadow, text, watermark, branding or additional objects. Realistic product materials, fine edges, studio lighting on the product only. Square image.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/005.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 117,
+      "candidatesTokenCount": 1514,
+      "totalTokenCount": 1631,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 117
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.043137259781360626,
+    "estimated_key": [
+      0.11764705926179886,
+      0.886274516582489,
+      0.0941176488995552
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/005.png",
+    "normalized_exterior_fraction": 0.7448329925537109
+  },
+  {
+    "id": 6,
+    "subject": "red leather handbag with curved handles",
+    "view": "front three-quarter view",
+    "prompt": "Create exactly ONE photorealistic ecommerce product image: red leather handbag with curved handles, front three-quarter view. Isolated fully visible product, centered with 20 percent margin. Every background pixel must be a flat solid pure green RGB(0,255,0), hexadecimal #00FF00, including all empty holes and spaces between handles, spokes or cables. No gradient, floor, horizon, background texture, background shadow, text, watermark, branding or additional objects. Realistic product materials, fine edges, studio lighting on the product only. Square image.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/006.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 115,
+      "candidatesTokenCount": 1477,
+      "totalTokenCount": 1592,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 115
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.04313725233078003,
+    "estimated_key": [
+      0.125490203499794,
+      0.9411764740943909,
+      0.07058823853731155
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/006.png",
+    "normalized_exterior_fraction": 0.6469430923461914
+  },
+  {
+    "id": 7,
+    "subject": "red leather handbag with curved handles",
+    "view": "side view with fine product details visible",
+    "prompt": "Create exactly ONE photorealistic ecommerce product image: red leather handbag with curved handles, side view with fine product details visible. Isolated fully visible product, centered with 20 percent margin. Every background pixel must be a flat solid pure green RGB(0,255,0), hexadecimal #00FF00, including all empty holes and spaces between handles, spokes or cables. No gradient, floor, horizon, background texture, background shadow, text, watermark, branding or additional objects. Realistic product materials, fine edges, studio lighting on the product only. Square image.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/007.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 117,
+      "candidatesTokenCount": 1521,
+      "totalTokenCount": 1638,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 117
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.03921569138765335,
+    "estimated_key": [
+      0.12941177189350128,
+      0.9098039269447327,
+      0.09803921729326248
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/007.png",
+    "normalized_exterior_fraction": 0.7687835693359375
+  },
+  {
+    "id": 8,
+    "subject": "stainless steel wristwatch and metal bracelet",
+    "view": "front three-quarter view",
+    "prompt": "Create exactly ONE photorealistic ecommerce product image: stainless steel wristwatch and metal bracelet, front three-quarter view. Isolated fully visible product, centered with 20 percent margin. Every background pixel must be a flat solid pure green RGB(0,255,0), hexadecimal #00FF00, including all empty holes and spaces between handles, spokes or cables. No gradient, floor, horizon, background texture, background shadow, text, watermark, branding or additional objects. Realistic product materials, fine edges, studio lighting on the product only. Square image.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/008.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 115,
+      "candidatesTokenCount": 1441,
+      "totalTokenCount": 1556,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 115
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.05098039656877518,
+    "estimated_key": [
+      0.10588235408067703,
+      0.9333333373069763,
+      0.08627451211214066
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/008.png",
+    "normalized_exterior_fraction": 0.6420392990112305
+  },
+  {
+    "id": 9,
+    "subject": "stainless steel wristwatch and metal bracelet",
+    "view": "side view with fine product details visible",
+    "prompt": "Create exactly ONE photorealistic ecommerce product image: stainless steel wristwatch and metal bracelet, side view with fine product details visible. Isolated fully visible product, centered with 20 percent margin. Every background pixel must be a flat solid pure green RGB(0,255,0), hexadecimal #00FF00, including all empty holes and spaces between handles, spokes or cables. No gradient, floor, horizon, background texture, background shadow, text, watermark, branding or additional objects. Realistic product materials, fine edges, studio lighting on the product only. Square image.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/009.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 117,
+      "candidatesTokenCount": 1533,
+      "totalTokenCount": 1650,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 117
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 0.0,
+    "background_border_spread": 0.5019607543945312,
+    "estimated_key": [
+      0.9960784316062927,
+      0.9960784316062927,
+      0.9960784316062927
+    ],
+    "background_qa_pass": false,
+    "original_path": "datasets/generated_v3/009.png"
+  },
+  {
+    "id": 10,
+    "subject": "white ceramic mug with a large open handle",
+    "view": "front three-quarter view",
+    "prompt": "Create exactly ONE photorealistic ecommerce product image: white ceramic mug with a large open handle, front three-quarter view. Isolated fully visible product, centered with 20 percent margin. Every background pixel must be a flat solid pure green RGB(0,255,0), hexadecimal #00FF00, including all empty holes and spaces between handles, spokes or cables. No gradient, floor, horizon, background texture, background shadow, text, watermark, branding or additional objects. Realistic product materials, fine edges, studio lighting on the product only. Square image.",
+    "split": "test_visual_only",
+    "path": "datasets/generated_v3/prepared/010.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 117,
+      "candidatesTokenCount": 1377,
+      "totalTokenCount": 1494,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 117
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.039215683937072754,
+    "estimated_key": [
+      0.13725490868091583,
+      0.9215686321258545,
+      0.08235294371843338
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/010.png",
+    "normalized_exterior_fraction": 0.5879449844360352
+  },
+  {
+    "id": 11,
+    "subject": "white ceramic mug with a large open handle",
+    "view": "side view with fine product details visible",
+    "prompt": "Create exactly ONE photorealistic ecommerce product image: white ceramic mug with a large open handle, side view with fine product details visible. Isolated fully visible product, centered with 20 percent margin. Every background pixel must be a flat solid pure green RGB(0,255,0), hexadecimal #00FF00, including all empty holes and spaces between handles, spokes or cables. No gradient, floor, horizon, background texture, background shadow, text, watermark, branding or additional objects. Realistic product materials, fine edges, studio lighting on the product only. Square image.",
+    "split": "test_visual_only",
+    "path": "datasets/generated_v3/prepared/011.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 119,
+      "candidatesTokenCount": 1480,
+      "totalTokenCount": 1599,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 119
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.03529411554336548,
+    "estimated_key": [
+      0.10196078568696976,
+      0.8509804010391235,
+      0.06666667014360428
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/011.png",
+    "normalized_exterior_fraction": 0.5462198257446289
+  },
+  {
+    "id": 12,
+    "subject": "navy backpack with straps and mesh pockets",
+    "view": "front three-quarter view",
+    "prompt": "Create exactly ONE photorealistic ecommerce product image: navy backpack with straps and mesh pockets, front three-quarter view. Isolated fully visible product, centered with 20 percent margin. Every background pixel must be a flat solid pure green RGB(0,255,0), hexadecimal #00FF00, including all empty holes and spaces between handles, spokes or cables. No gradient, floor, horizon, background texture, background shadow, text, watermark, branding or additional objects. Realistic product materials, fine edges, studio lighting on the product only. Square image.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/012.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 116,
+      "candidatesTokenCount": 1518,
+      "totalTokenCount": 1634,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 116
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.05098038911819458,
+    "estimated_key": [
+      0.12941177189350128,
+      0.95686274766922,
+      0.08235294371843338
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/012.png",
+    "normalized_exterior_fraction": 0.5774154663085938
+  },
+  {
+    "id": 13,
+    "subject": "navy backpack with straps and mesh pockets",
+    "view": "side view with fine product details visible",
+    "prompt": "Create exactly ONE photorealistic ecommerce product image: navy backpack with straps and mesh pockets, side view with fine product details visible. Isolated fully visible product, centered with 20 percent margin. Every background pixel must be a flat solid pure green RGB(0,255,0), hexadecimal #00FF00, including all empty holes and spaces between handles, spokes or cables. No gradient, floor, horizon, background texture, background shadow, text, watermark, branding or additional objects. Realistic product materials, fine edges, studio lighting on the product only. Square image.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/013.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 118,
+      "candidatesTokenCount": 1533,
+      "totalTokenCount": 1651,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 118
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.047058820724487305,
+    "estimated_key": [
+      0.16078431904315948,
+      0.8980392217636108,
+      0.09019608050584793
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/013.png",
+    "normalized_exterior_fraction": 0.6048250198364258
+  },
+  {
+    "id": 14,
+    "subject": "black camera with textured grip",
+    "view": "front three-quarter view",
+    "prompt": "Create exactly ONE photorealistic ecommerce product image: black camera with textured grip, front three-quarter view. Isolated fully visible product, centered with 20 percent margin. Every background pixel must be a flat solid pure green RGB(0,255,0), hexadecimal #00FF00, including all empty holes and spaces between handles, spokes or cables. No gradient, floor, horizon, background texture, background shadow, text, watermark, branding or additional objects. Realistic product materials, fine edges, studio lighting on the product only. Square image.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/014.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 114,
+      "candidatesTokenCount": 1499,
+      "totalTokenCount": 1613,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 114
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.05098038911819458,
+    "estimated_key": [
+      0.125490203499794,
+      0.929411768913269,
+      0.08235294371843338
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/014.png",
+    "normalized_exterior_fraction": 0.7156219482421875
+  },
+  {
+    "id": 15,
+    "subject": "black camera with textured grip",
+    "view": "side view with fine product details visible",
+    "prompt": "Create exactly ONE photorealistic ecommerce product image: black camera with textured grip, side view with fine product details visible. Isolated fully visible product, centered with 20 percent margin. Every background pixel must be a flat solid pure green RGB(0,255,0), hexadecimal #00FF00, including all empty holes and spaces between handles, spokes or cables. No gradient, floor, horizon, background texture, background shadow, text, watermark, branding or additional objects. Realistic product materials, fine edges, studio lighting on the product only. Square image.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/015.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 116,
+      "candidatesTokenCount": 1467,
+      "totalTokenCount": 1583,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 116
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 0.0,
+    "background_border_spread": 0.00784313678741455,
+    "estimated_key": [
+      0.9960784316062927,
+      0.9960784316062927,
+      0.9960784316062927
+    ],
+    "background_qa_pass": false,
+    "original_path": "datasets/generated_v3/015.png"
+  },
+  {
+    "id": 16,
+    "subject": "silver laptop open at a three-quarter angle",
+    "view": "front three-quarter view",
+    "prompt": "Create exactly ONE photorealistic ecommerce product image: silver laptop open at a three-quarter angle, front three-quarter view. Isolated fully visible product, centered with 20 percent margin. Every background pixel must be a flat solid pure green RGB(0,255,0), hexadecimal #00FF00, including all empty holes and spaces between handles, spokes or cables. No gradient, floor, horizon, background texture, background shadow, text, watermark, branding or additional objects. Realistic product materials, fine edges, studio lighting on the product only. Square image.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/016.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 118,
+      "candidatesTokenCount": 1389,
+      "totalTokenCount": 1507,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 118
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.0470588281750679,
+    "estimated_key": [
+      0.12156862765550613,
+      0.9333333373069763,
+      0.09019608050584793
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/016.png",
+    "normalized_exterior_fraction": 0.7126607894897461
+  },
+  {
+    "id": 19,
+    "subject": "blue glass skincare bottle with dropper",
+    "view": "side view with fine product details visible",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of blue glass skincare bottle with dropper, side view with fine product details visible, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/019.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 187,
+      "candidatesTokenCount": 1408,
+      "totalTokenCount": 1595,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 187
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.05098038911819458,
+    "estimated_key": [
+      0.12941177189350128,
+      0.9450980424880981,
+      0.09019608050584793
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/019.png",
+    "normalized_exterior_fraction": 0.9028873443603516
+  },
+  {
+    "id": 20,
+    "subject": "beige knitted sweater folded neatly",
+    "view": "front three-quarter view",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of beige knitted sweater folded neatly, front three-quarter view, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "test_visual_only",
+    "path": "datasets/generated_v3/prepared/020.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 184,
+      "candidatesTokenCount": 1472,
+      "totalTokenCount": 1656,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 184
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.05098039656877518,
+    "estimated_key": [
+      0.11372549086809158,
+      0.9411764740943909,
+      0.05882352963089943
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/020.png",
+    "normalized_exterior_fraction": 0.8108320236206055
+  },
+  {
+    "id": 21,
+    "subject": "beige knitted sweater folded neatly",
+    "view": "side view with fine product details visible",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of beige knitted sweater folded neatly, side view with fine product details visible, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "test_visual_only",
+    "path": "datasets/generated_v3/prepared/021.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 186,
+      "candidatesTokenCount": 1441,
+      "totalTokenCount": 1627,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 186
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.0470588281750679,
+    "estimated_key": [
+      0.12156862765550613,
+      0.929411768913269,
+      0.062745101749897
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/021.png",
+    "normalized_exterior_fraction": 0.8589162826538086
+  },
+  {
+    "id": 22,
+    "subject": "black sunglasses with transparent gray lenses",
+    "view": "front three-quarter view",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of black sunglasses with transparent gray lenses, front three-quarter view, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/022.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 185,
+      "candidatesTokenCount": 1423,
+      "totalTokenCount": 1608,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 185
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.047058820724487305,
+    "estimated_key": [
+      0.12941177189350128,
+      0.9450980424880981,
+      0.06666667014360428
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/022.png",
+    "normalized_exterior_fraction": 0.9067535400390625
+  },
+  {
+    "id": 23,
+    "subject": "black sunglasses with transparent gray lenses",
+    "view": "side view with fine product details visible",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of black sunglasses with transparent gray lenses, side view with fine product details visible, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/023.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 187,
+      "candidatesTokenCount": 1533,
+      "totalTokenCount": 1720,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 187
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.047058820724487305,
+    "estimated_key": [
+      0.1764705926179886,
+      0.9450980424880981,
+      0.062745101749897
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/023.png",
+    "normalized_exterior_fraction": 0.9548845291137695
+  },
+  {
+    "id": 24,
+    "subject": "red electric kettle with chrome spout",
+    "view": "front three-quarter view",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of red electric kettle with chrome spout, front three-quarter view, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/024.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 185,
+      "candidatesTokenCount": 1500,
+      "totalTokenCount": 1685,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 185
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.04313725233078003,
+    "estimated_key": [
+      0.12941177189350128,
+      0.9333333373069763,
+      0.062745101749897
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/024.png",
+    "normalized_exterior_fraction": 0.8320884704589844
+  },
+  {
+    "id": 25,
+    "subject": "red electric kettle with chrome spout",
+    "view": "side view with fine product details visible",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of red electric kettle with chrome spout, side view with fine product details visible, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/025.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 187,
+      "candidatesTokenCount": 1382,
+      "totalTokenCount": 1569,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 187
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.05098038911819458,
+    "estimated_key": [
+      0.13725490868091583,
+      0.9490196108818054,
+      0.07450980693101883
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/025.png",
+    "normalized_exterior_fraction": 0.8511428833007812
+  },
+  {
+    "id": 26,
+    "subject": "wooden dining chair with thin legs",
+    "view": "front three-quarter view",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of wooden dining chair with thin legs, front three-quarter view, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/026.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 185,
+      "candidatesTokenCount": 1488,
+      "totalTokenCount": 1673,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 185
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.05098038911819458,
+    "estimated_key": [
+      0.125490203499794,
+      0.9411764740943909,
+      0.07058823853731155
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/026.png",
+    "normalized_exterior_fraction": 0.9185819625854492
+  },
+  {
+    "id": 27,
+    "subject": "wooden dining chair with thin legs",
+    "view": "side view with fine product details visible",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of wooden dining chair with thin legs, side view with fine product details visible, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/027.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 187,
+      "candidatesTokenCount": 1522,
+      "totalTokenCount": 1709,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 187
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.0470588281750679,
+    "estimated_key": [
+      0.11764705926179886,
+      0.9372549057006836,
+      0.07450980693101883
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/027.png",
+    "normalized_exterior_fraction": 0.9483556747436523
+  },
+  {
+    "id": 28,
+    "subject": "cream plush teddy bear with fuzzy fur",
+    "view": "front three-quarter view",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of cream plush teddy bear with fuzzy fur, front three-quarter view, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/028.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 186,
+      "candidatesTokenCount": 1453,
+      "totalTokenCount": 1639,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 186
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.0470588281750679,
+    "estimated_key": [
+      0.10588235408067703,
+      0.9333333373069763,
+      0.06666667014360428
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/028.png",
+    "normalized_exterior_fraction": 0.8100986480712891
+  },
+  {
+    "id": 29,
+    "subject": "cream plush teddy bear with fuzzy fur",
+    "view": "side view with fine product details visible",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of cream plush teddy bear with fuzzy fur, side view with fine product details visible, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/029.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 188,
+      "candidatesTokenCount": 1435,
+      "totalTokenCount": 1623,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 188
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.04313725233078003,
+    "estimated_key": [
+      0.125490203499794,
+      0.9372549057006836,
+      0.062745101749897
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/029.png",
+    "normalized_exterior_fraction": 0.839137077331543
+  },
+  {
+    "id": 30,
+    "subject": "gold necklace with a delicate chain",
+    "view": "front three-quarter view",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of gold necklace with a delicate chain, front three-quarter view, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "test_visual_only",
+    "path": "datasets/generated_v3/prepared/030.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 185,
+      "candidatesTokenCount": 1517,
+      "totalTokenCount": 1702,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 185
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.05098039656877518,
+    "estimated_key": [
+      0.10980392247438431,
+      0.929411768913269,
+      0.07450980693101883
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/030.png",
+    "normalized_exterior_fraction": 0.9810094833374023
+  },
+  {
+    "id": 31,
+    "subject": "gold necklace with a delicate chain",
+    "view": "side view with fine product details visible",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of gold necklace with a delicate chain, side view with fine product details visible, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "test_visual_only",
+    "path": "datasets/generated_v3/prepared/031.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 187,
+      "candidatesTokenCount": 1405,
+      "totalTokenCount": 1592,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 187
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.04313725233078003,
+    "estimated_key": [
+      0.12941177189350128,
+      0.9372549057006836,
+      0.06666667014360428
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/031.png",
+    "normalized_exterior_fraction": 0.9685955047607422
+  },
+  {
+    "id": 32,
+    "subject": "purple athletic shoe with white laces",
+    "view": "front three-quarter view",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of purple athletic shoe with white laces, front three-quarter view, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/032.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 185,
+      "candidatesTokenCount": 1379,
+      "totalTokenCount": 1564,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 185
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.04313725233078003,
+    "estimated_key": [
+      0.13725490868091583,
+      0.9450980424880981,
+      0.062745101749897
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/032.png",
+    "normalized_exterior_fraction": 0.8565711975097656
+  },
+  {
+    "id": 33,
+    "subject": "purple athletic shoe with white laces",
+    "view": "side view with fine product details visible",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of purple athletic shoe with white laces, side view with fine product details visible, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/033.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 187,
+      "candidatesTokenCount": 1534,
+      "totalTokenCount": 1721,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 187
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.05098038911819458,
+    "estimated_key": [
+      0.1568627506494522,
+      0.9411764740943909,
+      0.06666667014360428
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/033.png",
+    "normalized_exterior_fraction": 0.8704414367675781
+  },
+  {
+    "id": 34,
+    "subject": "black desk lamp with thin articulated arms",
+    "view": "front three-quarter view",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of black desk lamp with thin articulated arms, front three-quarter view, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/034.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 186,
+      "candidatesTokenCount": 1485,
+      "totalTokenCount": 1671,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 186
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.04313725233078003,
+    "estimated_key": [
+      0.10980392247438431,
+      0.9333333373069763,
+      0.07450980693101883
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/034.png",
+    "normalized_exterior_fraction": 0.9505424499511719
+  },
+  {
+    "id": 35,
+    "subject": "black desk lamp with thin articulated arms",
+    "view": "side view with fine product details visible",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of black desk lamp with thin articulated arms, side view with fine product details visible, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/035.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 188,
+      "candidatesTokenCount": 1426,
+      "totalTokenCount": 1614,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 188
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.05098039656877518,
+    "estimated_key": [
+      0.12156862765550613,
+      0.9450980424880981,
+      0.06666667014360428
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/035.png",
+    "normalized_exterior_fraction": 0.9581031799316406
+  },
+  {
+    "id": 36,
+    "subject": "orange cordless drill",
+    "view": "front three-quarter view",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of orange cordless drill, front three-quarter view, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/036.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 182,
+      "candidatesTokenCount": 1493,
+      "totalTokenCount": 1675,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 182
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.047058820724487305,
+    "estimated_key": [
+      0.125490203499794,
+      0.9333333373069763,
+      0.06666667014360428
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/036.png",
+    "normalized_exterior_fraction": 0.9395856857299805
+  },
+  {
+    "id": 37,
+    "subject": "orange cordless drill",
+    "view": "side view with fine product details visible",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of orange cordless drill, side view with fine product details visible, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/037.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 184,
+      "candidatesTokenCount": 1489,
+      "totalTokenCount": 1673,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 184
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.047058820724487305,
+    "estimated_key": [
+      0.125490203499794,
+      0.9333333373069763,
+      0.05882352963089943
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/037.png",
+    "normalized_exterior_fraction": 0.9110736846923828
+  },
+  {
+    "id": 38,
+    "subject": "white wireless earbuds and open case",
+    "view": "front three-quarter view",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of white wireless earbuds and open case, front three-quarter view, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/038.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 185,
+      "candidatesTokenCount": 1519,
+      "totalTokenCount": 1704,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 185
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.0470588281750679,
+    "estimated_key": [
+      0.11764705926179886,
+      0.9372549057006836,
+      0.07058823853731155
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/038.png",
+    "normalized_exterior_fraction": 0.827214241027832
+  },
+  {
+    "id": 39,
+    "subject": "white wireless earbuds and open case",
+    "view": "side view with fine product details visible",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of white wireless earbuds and open case, side view with fine product details visible, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/039.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 187,
+      "candidatesTokenCount": 1517,
+      "totalTokenCount": 1704,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 187
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.0470588281750679,
+    "estimated_key": [
+      0.12156862765550613,
+      0.9372549057006836,
+      0.06666667014360428
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/039.png",
+    "normalized_exterior_fraction": 0.8373012542724609
+  },
+  {
+    "id": 40,
+    "subject": "clear drinking glass with water",
+    "view": "front three-quarter view",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of clear drinking glass with water, front three-quarter view, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "test_visual_only",
+    "path": "datasets/generated_v3/prepared/040.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 184,
+      "candidatesTokenCount": 1430,
+      "totalTokenCount": 1614,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 184
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.04313725233078003,
+    "estimated_key": [
+      0.12941177189350128,
+      0.9333333373069763,
+      0.07058823853731155
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/040.png",
+    "normalized_exterior_fraction": 0.8277864456176758
+  },
+  {
+    "id": 41,
+    "subject": "clear drinking glass with water",
+    "view": "side view with fine product details visible",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of clear drinking glass with water, side view with fine product details visible, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "test_visual_only",
+    "path": "datasets/generated_v3/prepared/041.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 186,
+      "candidatesTokenCount": 1470,
+      "totalTokenCount": 1656,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 186
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.05098039656877518,
+    "estimated_key": [
+      0.11372549086809158,
+      0.9333333373069763,
+      0.05882352963089943
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/041.png",
+    "normalized_exterior_fraction": 0.8458957672119141
+  },
+  {
+    "id": 42,
+    "subject": "green shampoo bottle with white label",
+    "view": "front three-quarter view",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of green shampoo bottle with white label, front three-quarter view, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/042.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 185,
+      "candidatesTokenCount": 1446,
+      "totalTokenCount": 1631,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 185
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.047058820724487305,
+    "estimated_key": [
+      0.1411764770746231,
+      0.9450980424880981,
+      0.05882352963089943
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/042.png",
+    "normalized_exterior_fraction": 0.9048042297363281
+  },
+  {
+    "id": 43,
+    "subject": "green shampoo bottle with white label",
+    "view": "side view with fine product details visible",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of green shampoo bottle with white label, side view with fine product details visible, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/043.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 187,
+      "candidatesTokenCount": 1452,
+      "totalTokenCount": 1639,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 187
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.05098038911819458,
+    "estimated_key": [
+      0.12941177189350128,
+      0.9490196108818054,
+      0.054901961237192154
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/043.png",
+    "normalized_exterior_fraction": 0.9440507888793945
+  },
+  {
+    "id": 44,
+    "subject": "yellow handbag with a gold chain",
+    "view": "front three-quarter view",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of yellow handbag with a gold chain, front three-quarter view, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/044.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 185,
+      "candidatesTokenCount": 1419,
+      "totalTokenCount": 1604,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 185
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.05098039656877518,
+    "estimated_key": [
+      0.11372549086809158,
+      0.9372549057006836,
+      0.07058823853731155
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/044.png",
+    "normalized_exterior_fraction": 0.8613386154174805
+  },
+  {
+    "id": 45,
+    "subject": "yellow handbag with a gold chain",
+    "view": "side view with fine product details visible",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of yellow handbag with a gold chain, side view with fine product details visible, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/045.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 187,
+      "candidatesTokenCount": 1536,
+      "totalTokenCount": 1723,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 187
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.05490196496248245,
+    "estimated_key": [
+      0.10588235408067703,
+      0.9254902005195618,
+      0.054901961237192154
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/045.png",
+    "normalized_exterior_fraction": 0.8782901763916016
+  },
+  {
+    "id": 46,
+    "subject": "dark green potted houseplant in a white pot",
+    "view": "front three-quarter view",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of dark green potted houseplant in a white pot, front three-quarter view, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/046.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 188,
+      "candidatesTokenCount": 1421,
+      "totalTokenCount": 1609,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 188
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.0470588281750679,
+    "estimated_key": [
+      0.11764705926179886,
+      0.9450980424880981,
+      0.06666667014360428
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/046.png",
+    "normalized_exterior_fraction": 0.8816709518432617
+  },
+  {
+    "id": 47,
+    "subject": "dark green potted houseplant in a white pot",
+    "view": "side view with fine product details visible",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of dark green potted houseplant in a white pot, side view with fine product details visible, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/047.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 190,
+      "candidatesTokenCount": 1492,
+      "totalTokenCount": 1682,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 190
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.047058820724487305,
+    "estimated_key": [
+      0.14901961386203766,
+      0.9372549057006836,
+      0.07450980693101883
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/047.png",
+    "normalized_exterior_fraction": 0.8721551895141602
+  },
+  {
+    "id": 48,
+    "subject": "red toaster with chrome levers",
+    "view": "front three-quarter view",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of red toaster with chrome levers, front three-quarter view, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/048.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 184,
+      "candidatesTokenCount": 1483,
+      "totalTokenCount": 1667,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 184
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.0470588244497776,
+    "estimated_key": [
+      0.13725490868091583,
+      0.9529411792755127,
+      0.05098039284348488
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/048.png",
+    "normalized_exterior_fraction": 0.7486371994018555
+  },
+  {
+    "id": 49,
+    "subject": "red toaster with chrome levers",
+    "view": "side view with fine product details visible",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of red toaster with chrome levers, side view with fine product details visible, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/049.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 186,
+      "candidatesTokenCount": 1513,
+      "totalTokenCount": 1699,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 186
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.05098038911819458,
+    "estimated_key": [
+      0.15294118225574493,
+      0.9490196108818054,
+      0.07450980693101883
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/049.png",
+    "normalized_exterior_fraction": 0.8714971542358398
+  },
+  {
+    "id": 50,
+    "subject": "white ceramic teapot",
+    "view": "front three-quarter view",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of white ceramic teapot, front three-quarter view, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "test_visual_only",
+    "path": "datasets/generated_v3/prepared/050.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 182,
+      "candidatesTokenCount": 1459,
+      "totalTokenCount": 1641,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 182
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.0470588281750679,
+    "estimated_key": [
+      0.12156862765550613,
+      0.929411768913269,
+      0.054901961237192154
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/050.png",
+    "normalized_exterior_fraction": 0.873103141784668
+  },
+  {
+    "id": 51,
+    "subject": "white ceramic teapot",
+    "view": "side view with fine product details visible",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of white ceramic teapot, side view with fine product details visible, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "test_visual_only",
+    "path": "datasets/generated_v3/prepared/051.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 184,
+      "candidatesTokenCount": 1413,
+      "totalTokenCount": 1597,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 184
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.04313725233078003,
+    "estimated_key": [
+      0.13333334028720856,
+      0.9411764740943909,
+      0.054901961237192154
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/051.png",
+    "normalized_exterior_fraction": 0.8224029541015625
+  },
+  {
+    "id": 52,
+    "subject": "brown hiking boot with rugged sole",
+    "view": "front three-quarter view",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of brown hiking boot with rugged sole, front three-quarter view, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/052.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 185,
+      "candidatesTokenCount": 1523,
+      "totalTokenCount": 1708,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 185
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.05098038911819458,
+    "estimated_key": [
+      0.12941177189350128,
+      0.9450980424880981,
+      0.07058823853731155
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/052.png",
+    "normalized_exterior_fraction": 0.8779945373535156
+  },
+  {
+    "id": 53,
+    "subject": "brown hiking boot with rugged sole",
+    "view": "side view with fine product details visible",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of brown hiking boot with rugged sole, side view with fine product details visible, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/053.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 187,
+      "candidatesTokenCount": 1503,
+      "totalTokenCount": 1690,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 187
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.05098038911819458,
+    "estimated_key": [
+      0.14509804546833038,
+      0.9450980424880981,
+      0.06666667014360428
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/053.png",
+    "normalized_exterior_fraction": 0.7748327255249023
+  },
+  {
+    "id": 54,
+    "subject": "blue tennis racket with fine strings",
+    "view": "front three-quarter view",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of blue tennis racket with fine strings, front three-quarter view, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/054.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 185,
+      "candidatesTokenCount": 1517,
+      "totalTokenCount": 1702,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 185
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.054901957511901855,
+    "estimated_key": [
+      0.12941177189350128,
+      0.9333333373069763,
+      0.062745101749897
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/054.png",
+    "normalized_exterior_fraction": 0.912928581237793
+  },
+  {
+    "id": 55,
+    "subject": "blue tennis racket with fine strings",
+    "view": "side view with fine product details visible",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of blue tennis racket with fine strings, side view with fine product details visible, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/055.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 187,
+      "candidatesTokenCount": 1466,
+      "totalTokenCount": 1653,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 187
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.05098038911819458,
+    "estimated_key": [
+      0.13725490868091583,
+      0.9372549057006836,
+      0.08235294371843338
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/055.png",
+    "normalized_exterior_fraction": 0.9133529663085938
+  },
+  {
+    "id": 56,
+    "subject": "yellow bicycle helmet with ventilation holes",
+    "view": "front three-quarter view",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of yellow bicycle helmet with ventilation holes, front three-quarter view, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/056.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 185,
+      "candidatesTokenCount": 1507,
+      "totalTokenCount": 1692,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 185
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.047058820724487305,
+    "estimated_key": [
+      0.12156862765550613,
+      0.929411768913269,
+      0.062745101749897
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/056.png",
+    "normalized_exterior_fraction": 0.8576269149780273
+  },
+  {
+    "id": 57,
+    "subject": "yellow bicycle helmet with ventilation holes",
+    "view": "side view with fine product details visible",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of yellow bicycle helmet with ventilation holes, side view with fine product details visible, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/057.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 187,
+      "candidatesTokenCount": 1483,
+      "totalTokenCount": 1670,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 187
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.04313725605607033,
+    "estimated_key": [
+      0.12941177189350128,
+      0.9411764740943909,
+      0.05882352963089943
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/057.png",
+    "normalized_exterior_fraction": 0.8716354370117188
+  },
+  {
+    "id": 58,
+    "subject": "silver bicycle with thin spokes",
+    "view": "front three-quarter view",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of silver bicycle with thin spokes, front three-quarter view, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/058.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 184,
+      "candidatesTokenCount": 1475,
+      "totalTokenCount": 1659,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 184
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.047058820724487305,
+    "estimated_key": [
+      0.13725490868091583,
+      0.9411764740943909,
+      0.07058823853731155
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/058.png",
+    "normalized_exterior_fraction": 0.8842325210571289
+  },
+  {
+    "id": 59,
+    "subject": "silver bicycle with thin spokes",
+    "view": "side view with fine product details visible",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of silver bicycle with thin spokes, side view with fine product details visible, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/059.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 186,
+      "candidatesTokenCount": 1392,
+      "totalTokenCount": 1578,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 186
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.047058820724487305,
+    "estimated_key": [
+      0.125490203499794,
+      0.9490196108818054,
+      0.07058823853731155
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/059.png",
+    "normalized_exterior_fraction": 0.8078680038452148
+  },
+  {
+    "id": 60,
+    "subject": "black game controller",
+    "view": "front three-quarter view",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of black game controller, front three-quarter view, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "test_visual_only",
+    "path": "datasets/generated_v3/prepared/060.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 182,
+      "candidatesTokenCount": 1482,
+      "totalTokenCount": 1664,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 182
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.047058820724487305,
+    "estimated_key": [
+      0.13333334028720856,
+      0.9450980424880981,
+      0.07450980693101883
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/060.png",
+    "normalized_exterior_fraction": 0.8394012451171875
+  },
+  {
+    "id": 61,
+    "subject": "black game controller",
+    "view": "side view with fine product details visible",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of black game controller, side view with fine product details visible, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "test_visual_only",
+    "path": "datasets/generated_v3/prepared/061.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 184,
+      "candidatesTokenCount": 1488,
+      "totalTokenCount": 1672,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 184
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.054901957511901855,
+    "estimated_key": [
+      0.13725490868091583,
+      0.9372549057006836,
+      0.06666667014360428
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/061.png",
+    "normalized_exterior_fraction": 0.9043169021606445
+  },
+  {
+    "id": 62,
+    "subject": "pink hair dryer",
+    "view": "front three-quarter view",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of pink hair dryer, front three-quarter view, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/062.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 182,
+      "candidatesTokenCount": 1434,
+      "totalTokenCount": 1616,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 182
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.047058820724487305,
+    "estimated_key": [
+      0.15294118225574493,
+      0.9450980424880981,
+      0.06666667014360428
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/062.png",
+    "normalized_exterior_fraction": 0.9036092758178711
+  },
+  {
+    "id": 63,
+    "subject": "pink hair dryer",
+    "view": "side view with fine product details visible",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of pink hair dryer, side view with fine product details visible, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/063.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 184,
+      "candidatesTokenCount": 1433,
+      "totalTokenCount": 1617,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 184
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.05098039656877518,
+    "estimated_key": [
+      0.10588235408067703,
+      0.9411764740943909,
+      0.0784313753247261
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/063.png",
+    "normalized_exterior_fraction": 0.8717479705810547
+  },
+  {
+    "id": 64,
+    "subject": "white standing fan with wire grille",
+    "view": "front three-quarter view",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of white standing fan with wire grille, front three-quarter view, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/064.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 185,
+      "candidatesTokenCount": 1473,
+      "totalTokenCount": 1658,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 185
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.05098038911819458,
+    "estimated_key": [
+      0.12941177189350128,
+      0.9411764740943909,
+      0.05882352963089943
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/064.png",
+    "normalized_exterior_fraction": 0.9446525573730469
+  },
+  {
+    "id": 65,
+    "subject": "white standing fan with wire grille",
+    "view": "side view with fine product details visible",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of white standing fan with wire grille, side view with fine product details visible, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/065.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 187,
+      "candidatesTokenCount": 1467,
+      "totalTokenCount": 1654,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 187
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.043137259781360626,
+    "estimated_key": [
+      0.12156862765550613,
+      0.9254902005195618,
+      0.06666667014360428
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/065.png",
+    "normalized_exterior_fraction": 0.9236536026000977
+  },
+  {
+    "id": 66,
+    "subject": "silver kitchen whisk",
+    "view": "front three-quarter view",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of silver kitchen whisk, front three-quarter view, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/066.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 182,
+      "candidatesTokenCount": 1443,
+      "totalTokenCount": 1625,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 182
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.05098038911819458,
+    "estimated_key": [
+      0.125490203499794,
+      0.929411768913269,
+      0.05882352963089943
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/066.png",
+    "normalized_exterior_fraction": 0.9527587890625
+  },
+  {
+    "id": 67,
+    "subject": "silver kitchen whisk",
+    "view": "side view with fine product details visible",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of silver kitchen whisk, side view with fine product details visible, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/067.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 184,
+      "candidatesTokenCount": 1480,
+      "totalTokenCount": 1664,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 184
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.04313725233078003,
+    "estimated_key": [
+      0.14509804546833038,
+      0.9372549057006836,
+      0.05882352963089943
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/067.png",
+    "normalized_exterior_fraction": 0.9337215423583984
+  },
+  {
+    "id": 68,
+    "subject": "red scissors with open handles",
+    "view": "front three-quarter view",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of red scissors with open handles, front three-quarter view, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/068.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 184,
+      "candidatesTokenCount": 1473,
+      "totalTokenCount": 1657,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 184
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.047058820724487305,
+    "estimated_key": [
+      0.15294118225574493,
+      0.9450980424880981,
+      0.05882352963089943
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/068.png",
+    "normalized_exterior_fraction": 0.9235124588012695
+  },
+  {
+    "id": 69,
+    "subject": "red scissors with open handles",
+    "view": "side view with fine product details visible",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of red scissors with open handles, side view with fine product details visible, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/069.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 186,
+      "candidatesTokenCount": 1426,
+      "totalTokenCount": 1612,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 186
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.047058820724487305,
+    "estimated_key": [
+      0.12941177189350128,
+      0.929411768913269,
+      0.06666667014360428
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/069.png",
+    "normalized_exterior_fraction": 0.883082389831543
+  },
+  {
+    "id": 70,
+    "subject": "brown woven basket",
+    "view": "front three-quarter view",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of brown woven basket, front three-quarter view, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "test_visual_only",
+    "path": "datasets/generated_v3/prepared/070.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 182,
+      "candidatesTokenCount": 1424,
+      "totalTokenCount": 1606,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 182
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.05490196496248245,
+    "estimated_key": [
+      0.10588235408067703,
+      0.9529411792755127,
+      0.054901961237192154
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/070.png",
+    "normalized_exterior_fraction": 0.8200149536132812
+  },
+  {
+    "id": 71,
+    "subject": "brown woven basket",
+    "view": "side view with fine product details visible",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of brown woven basket, side view with fine product details visible, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "test_visual_only",
+    "path": "datasets/generated_v3/prepared/071.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 184,
+      "candidatesTokenCount": 1462,
+      "totalTokenCount": 1646,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 184
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.047058820724487305,
+    "estimated_key": [
+      0.125490203499794,
+      0.9490196108818054,
+      0.06666667014360428
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/071.png",
+    "normalized_exterior_fraction": 0.8408336639404297
+  },
+  {
+    "id": 72,
+    "subject": "blue umbrella opened fully",
+    "view": "front three-quarter view",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of blue umbrella opened fully, front three-quarter view, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/072.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 183,
+      "candidatesTokenCount": 1435,
+      "totalTokenCount": 1618,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 183
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.04313725233078003,
+    "estimated_key": [
+      0.1411764770746231,
+      0.9450980424880981,
+      0.07450980693101883
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/072.png",
+    "normalized_exterior_fraction": 0.8747119903564453
+  },
+  {
+    "id": 73,
+    "subject": "blue umbrella opened fully",
+    "view": "side view with fine product details visible",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of blue umbrella opened fully, side view with fine product details visible, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/073.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 185,
+      "candidatesTokenCount": 1479,
+      "totalTokenCount": 1664,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 185
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.047058820724487305,
+    "estimated_key": [
+      0.1725490242242813,
+      0.9490196108818054,
+      0.05098039284348488
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/073.png",
+    "normalized_exterior_fraction": 0.880767822265625
+  },
+  {
+    "id": 74,
+    "subject": "silver fountain pen",
+    "view": "front three-quarter view",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of silver fountain pen, front three-quarter view, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/074.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 182,
+      "candidatesTokenCount": 1454,
+      "totalTokenCount": 1636,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 182
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.0470588281750679,
+    "estimated_key": [
+      0.11764705926179886,
+      0.9254902005195618,
+      0.05882352963089943
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/074.png",
+    "normalized_exterior_fraction": 0.9664640426635742
+  },
+  {
+    "id": 75,
+    "subject": "silver fountain pen",
+    "view": "side view with fine product details visible",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of silver fountain pen, side view with fine product details visible, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/075.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 184,
+      "candidatesTokenCount": 1434,
+      "totalTokenCount": 1618,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 184
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.05098039656877518,
+    "estimated_key": [
+      0.11764705926179886,
+      0.9411764740943909,
+      0.062745101749897
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/075.png",
+    "normalized_exterior_fraction": 0.9430332183837891
+  },
+  {
+    "id": 76,
+    "subject": "black microphone with mesh grille",
+    "view": "front three-quarter view",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of black microphone with mesh grille, front three-quarter view, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/076.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 184,
+      "candidatesTokenCount": 1460,
+      "totalTokenCount": 1644,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 184
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.0470588281750679,
+    "estimated_key": [
+      0.11372549086809158,
+      0.9411764740943909,
+      0.062745101749897
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/076.png",
+    "normalized_exterior_fraction": 0.8990945816040039
+  },
+  {
+    "id": 77,
+    "subject": "black microphone with mesh grille",
+    "view": "side view with fine product details visible",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of black microphone with mesh grille, side view with fine product details visible, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/077.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 186,
+      "candidatesTokenCount": 1501,
+      "totalTokenCount": 1687,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 186
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.03921569138765335,
+    "estimated_key": [
+      0.10588235408067703,
+      0.929411768913269,
+      0.0784313753247261
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/077.png",
+    "normalized_exterior_fraction": 0.9519729614257812
+  },
+  {
+    "id": 78,
+    "subject": "white charging cable coiled loosely",
+    "view": "front three-quarter view",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of white charging cable coiled loosely, front three-quarter view, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/078.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 184,
+      "candidatesTokenCount": 1447,
+      "totalTokenCount": 1631,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 184
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.05098039656877518,
+    "estimated_key": [
+      0.11372549086809158,
+      0.9372549057006836,
+      0.054901961237192154
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/078.png",
+    "normalized_exterior_fraction": 0.8438310623168945
+  },
+  {
+    "id": 79,
+    "subject": "white charging cable coiled loosely",
+    "view": "side view with fine product details visible",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of white charging cable coiled loosely, side view with fine product details visible, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/079.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 186,
+      "candidatesTokenCount": 1438,
+      "totalTokenCount": 1624,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 186
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.0470588281750679,
+    "estimated_key": [
+      0.10980392247438431,
+      0.9411764740943909,
+      0.062745101749897
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/079.png",
+    "normalized_exterior_fraction": 0.8342342376708984
+  },
+  {
+    "id": 80,
+    "subject": "purple yoga mat rolled up",
+    "view": "front three-quarter view",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of purple yoga mat rolled up, front three-quarter view, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "test_visual_only",
+    "path": "datasets/generated_v3/prepared/080.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 184,
+      "candidatesTokenCount": 1454,
+      "totalTokenCount": 1638,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 184
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.04313725233078003,
+    "estimated_key": [
+      0.125490203499794,
+      0.9333333373069763,
+      0.062745101749897
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/080.png",
+    "normalized_exterior_fraction": 0.8578062057495117
+  },
+  {
+    "id": 81,
+    "subject": "purple yoga mat rolled up",
+    "view": "side view with fine product details visible",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of purple yoga mat rolled up, side view with fine product details visible, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "test_visual_only",
+    "path": "datasets/generated_v3/prepared/081.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 186,
+      "candidatesTokenCount": 1460,
+      "totalTokenCount": 1646,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 186
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.047058820724487305,
+    "estimated_key": [
+      0.125490203499794,
+      0.929411768913269,
+      0.07058823853731155
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/081.png",
+    "normalized_exterior_fraction": 0.830714225769043
+  },
+  {
+    "id": 82,
+    "subject": "red insulated water bottle",
+    "view": "front three-quarter view",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of red insulated water bottle, front three-quarter view, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/082.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 183,
+      "candidatesTokenCount": 1420,
+      "totalTokenCount": 1603,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 183
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.05098039656877518,
+    "estimated_key": [
+      0.12156862765550613,
+      0.9450980424880981,
+      0.0784313753247261
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/082.png",
+    "normalized_exterior_fraction": 0.8452777862548828
+  },
+  {
+    "id": 83,
+    "subject": "red insulated water bottle",
+    "view": "side view with fine product details visible",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of red insulated water bottle, side view with fine product details visible, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/083.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 185,
+      "candidatesTokenCount": 1443,
+      "totalTokenCount": 1628,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 185
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.04313725233078003,
+    "estimated_key": [
+      0.125490203499794,
+      0.929411768913269,
+      0.08235294371843338
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/083.png",
+    "normalized_exterior_fraction": 0.9033918380737305
+  },
+  {
+    "id": 84,
+    "subject": "tan leather belt with metal buckle",
+    "view": "front three-quarter view",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of tan leather belt with metal buckle, front three-quarter view, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/084.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 185,
+      "candidatesTokenCount": 1404,
+      "totalTokenCount": 1589,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 185
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.05490196496248245,
+    "estimated_key": [
+      0.11372549086809158,
+      0.9372549057006836,
+      0.06666667014360428
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/084.png",
+    "normalized_exterior_fraction": 0.8314390182495117
+  },
+  {
+    "id": 85,
+    "subject": "tan leather belt with metal buckle",
+    "view": "side view with fine product details visible",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of tan leather belt with metal buckle, side view with fine product details visible, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/085.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 187,
+      "candidatesTokenCount": 1454,
+      "totalTokenCount": 1641,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 187
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.0470588281750679,
+    "estimated_key": [
+      0.12156862765550613,
+      0.9490196108818054,
+      0.062745101749897
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/085.png",
+    "normalized_exterior_fraction": 0.8585004806518555
+  },
+  {
+    "id": 86,
+    "subject": "black office chair with mesh back",
+    "view": "front three-quarter view",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of black office chair with mesh back, front three-quarter view, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/086.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 185,
+      "candidatesTokenCount": 1472,
+      "totalTokenCount": 1657,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 185
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.043137259781360626,
+    "estimated_key": [
+      0.10588235408067703,
+      0.9372549057006836,
+      0.07058823853731155
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/086.png",
+    "normalized_exterior_fraction": 0.8907756805419922
+  },
+  {
+    "id": 87,
+    "subject": "black office chair with mesh back",
+    "view": "side view with fine product details visible",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of black office chair with mesh back, side view with fine product details visible, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/087.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 187,
+      "candidatesTokenCount": 1484,
+      "totalTokenCount": 1671,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 187
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.047058820724487305,
+    "estimated_key": [
+      0.125490203499794,
+      0.929411768913269,
+      0.06666667014360428
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/087.png",
+    "normalized_exterior_fraction": 0.9141836166381836
+  },
+  {
+    "id": 88,
+    "subject": "blue suitcase with extended handle",
+    "view": "front three-quarter view",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of blue suitcase with extended handle, front three-quarter view, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/088.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 184,
+      "candidatesTokenCount": 1421,
+      "totalTokenCount": 1605,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 184
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.05098039656877518,
+    "estimated_key": [
+      0.11764705926179886,
+      0.9450980424880981,
+      0.06666667014360428
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/088.png",
+    "normalized_exterior_fraction": 0.8117141723632812
+  },
+  {
+    "id": 89,
+    "subject": "blue suitcase with extended handle",
+    "view": "side view with fine product details visible",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of blue suitcase with extended handle, side view with fine product details visible, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/089.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 186,
+      "candidatesTokenCount": 1421,
+      "totalTokenCount": 1607,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 186
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.05098038911819458,
+    "estimated_key": [
+      0.125490203499794,
+      0.9450980424880981,
+      0.06666667014360428
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/089.png",
+    "normalized_exterior_fraction": 0.9075441360473633
+  },
+  {
+    "id": 90,
+    "subject": "white sneaker viewed from the sole",
+    "view": "front three-quarter view",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of white sneaker viewed from the sole, front three-quarter view, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "test_visual_only",
+    "path": "datasets/generated_v3/prepared/090.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 185,
+      "candidatesTokenCount": 1470,
+      "totalTokenCount": 1655,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 185
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.05098039656877518,
+    "estimated_key": [
+      0.12156862765550613,
+      0.9372549057006836,
+      0.062745101749897
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/090.png",
+    "normalized_exterior_fraction": 0.8553028106689453
+  },
+  {
+    "id": 91,
+    "subject": "white sneaker viewed from the sole",
+    "view": "side view with fine product details visible",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of white sneaker viewed from the sole, side view with fine product details visible, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "test_visual_only",
+    "path": "datasets/generated_v3/prepared/091.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 187,
+      "candidatesTokenCount": 1560,
+      "totalTokenCount": 1747,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 187
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.05098039656877518,
+    "estimated_key": [
+      0.11764705926179886,
+      0.9215686321258545,
+      0.062745101749897
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/091.png",
+    "normalized_exterior_fraction": 0.8859348297119141
+  },
+  {
+    "id": 92,
+    "subject": "bronze desk clock with thin hands",
+    "view": "front three-quarter view",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of bronze desk clock with thin hands, front three-quarter view, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/092.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 185,
+      "candidatesTokenCount": 1476,
+      "totalTokenCount": 1661,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 185
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.0470588281750679,
+    "estimated_key": [
+      0.11372549086809158,
+      0.9333333373069763,
+      0.05882352963089943
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/092.png",
+    "normalized_exterior_fraction": 0.835540771484375
+  },
+  {
+    "id": 93,
+    "subject": "bronze desk clock with thin hands",
+    "view": "side view with fine product details visible",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of bronze desk clock with thin hands, side view with fine product details visible, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/093.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 187,
+      "candidatesTokenCount": 1474,
+      "totalTokenCount": 1661,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 187
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.05098038911819458,
+    "estimated_key": [
+      0.12941177189350128,
+      0.9490196108818054,
+      0.07450980693101883
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/093.png",
+    "normalized_exterior_fraction": 0.8742351531982422
+  },
+  {
+    "id": 94,
+    "subject": "red ceramic vase",
+    "view": "front three-quarter view",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of red ceramic vase, front three-quarter view, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/094.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 182,
+      "candidatesTokenCount": 1458,
+      "totalTokenCount": 1640,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 182
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.047058820724487305,
+    "estimated_key": [
+      0.12941177189350128,
+      0.9411764740943909,
+      0.06666667014360428
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/094.png",
+    "normalized_exterior_fraction": 0.8382511138916016
+  },
+  {
+    "id": 95,
+    "subject": "red ceramic vase",
+    "view": "side view with fine product details visible",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of red ceramic vase, side view with fine product details visible, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/095.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 184,
+      "candidatesTokenCount": 1502,
+      "totalTokenCount": 1686,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 184
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.043137259781360626,
+    "estimated_key": [
+      0.12156862765550613,
+      0.9333333373069763,
+      0.062745101749897
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/095.png",
+    "normalized_exterior_fraction": 0.8947830200195312
+  },
+  {
+    "id": 96,
+    "subject": "black tripod with slender legs",
+    "view": "front three-quarter view",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of black tripod with slender legs, front three-quarter view, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/096.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 184,
+      "candidatesTokenCount": 1454,
+      "totalTokenCount": 1638,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 184
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.047058820724487305,
+    "estimated_key": [
+      0.12941177189350128,
+      0.9529411792755127,
+      0.07450980693101883
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/096.png",
+    "normalized_exterior_fraction": 0.9426126480102539
+  },
+  {
+    "id": 97,
+    "subject": "black tripod with slender legs",
+    "view": "side view with fine product details visible",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of black tripod with slender legs, side view with fine product details visible, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/097.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 186,
+      "candidatesTokenCount": 1509,
+      "totalTokenCount": 1695,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 186
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.047058820724487305,
+    "estimated_key": [
+      0.18039216101169586,
+      0.9450980424880981,
+      0.07450980693101883
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/097.png",
+    "normalized_exterior_fraction": 0.9629449844360352
+  },
+  {
+    "id": 98,
+    "subject": "orange safety vest with reflective strips",
+    "view": "front three-quarter view",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of orange safety vest with reflective strips, front three-quarter view, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/098.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 185,
+      "candidatesTokenCount": 1535,
+      "totalTokenCount": 1720,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 185
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.043137259781360626,
+    "estimated_key": [
+      0.11372549086809158,
+      0.9450980424880981,
+      0.054901961237192154
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/098.png",
+    "normalized_exterior_fraction": 0.8065872192382812
+  },
+  {
+    "id": 99,
+    "subject": "orange safety vest with reflective strips",
+    "view": "side view with fine product details visible",
+    "prompt": "Generate ONE flat digital chroma-key test plate. The ENTIRE square canvas is one perfectly uniform bright green color #00FF00, all four corners and the ENTIRE bottom third included. Paste a photorealistic cutout of orange safety vest with reflective strips, side view with fine product details visible, in the center, floating in the green field. The product is fully visible, realistic material textures, occupies at most 60 percent of canvas height and width. Leave wide uniform pure green margins on ALL four sides. Render no floor, no surface, no horizon, no scene, no gradient, no glow, no white or gray anywhere outside the product, no cast shadows, no text. All gaps and holes in the product reveal exactly the SAME uniform green canvas. This is a digital collage of one cutout on a solid #00FF00 rectangle. Background must stay equally bright green from top to bottom.",
+    "split": "train_weak",
+    "path": "datasets/generated_v3/prepared/099.png",
+    "model": "gemini-3.1-flash-lite-image",
+    "size": [
+      1024,
+      1024
+    ],
+    "usage": {
+      "promptTokenCount": 187,
+      "candidatesTokenCount": 1441,
+      "totalTokenCount": 1628,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 187
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "returned_images": 1,
+    "alpha_source": "none; not quantitative ground truth",
+    "background_border_green_fraction": 1.0,
+    "background_border_spread": 0.04313725233078003,
+    "estimated_key": [
+      0.13333334028720856,
+      0.929411768913269,
+      0.062745101749897
+    ],
+    "background_qa_pass": true,
+    "original_path": "datasets/generated_v3/099.png",
+    "normalized_exterior_fraction": 0.8551034927368164
+  }
+]

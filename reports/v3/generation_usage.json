@@ -1,0 +1,12 @@
+{
+  "saved_images": 98,
+  "attempted_requests": 100,
+  "interrupted_unknown_outcomes": 2,
+  "model": "gemini-3.1-flash-lite-image",
+  "reported_image_tokens": 109760,
+  "reported_prompt_tokens": 16989,
+  "reported_non_image_output_tokens": 34004,
+  "estimated_successful_requests_usd": 3.3480532500000004,
+  "billing_note": "Estimate using documented rates, not a bill. Two interrupted requests may also incur charges.",
+  "pricing_source": "https://ai.google.dev/gemini-api/docs/pricing"
+}

@@ -1,0 +1,25 @@
+{
+  "image_size": [
+    256,
+    256
+  ],
+  "runs": 12,
+  "threads_per_interpreter": 2,
+  "scope": "Native CPU end-to-end alpha inference including preprocessing/tiling, excluding PNG saving. Not browser timing. Warmed up; no concurrent training or evaluation.",
+  "larger_v2": {
+    "median_ms": 87.2863125987351,
+    "p95_ms": 87.92416048236191
+  },
+  "small_v1": {
+    "median_ms": 10.652875527739525,
+    "p95_ms": 11.826337780803442
+  },
+  "color_key": {
+    "median_ms": 0.06947899237275124,
+    "p95_ms": 0.07387436926364899
+  },
+  "deeplab": {
+    "median_ms": 12.798604555428028,
+    "p95_ms": 13.077795784920454
+  }
+}

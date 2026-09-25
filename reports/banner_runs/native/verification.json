@@ -1,0 +1,234 @@
+{
+  "scope": "11 diagnostic examples; not an aggregate accuracy estimate. Some examples share product assets. Native-size tiling used by CLI/browser.",
+  "samples": [
+    {
+      "id": "p0008_00",
+      "group": "solid_green",
+      "baseline": {
+        "alpha_mae": 0.0016643292037770152,
+        "pixel_accuracy": 0.9980908203125,
+        "precision": 0.9874160322436184,
+        "recall": 0.9950358770702649,
+        "iou": 0.9825757575757575
+      },
+      "latest": {
+        "alpha_mae": 0.0014959587715566158,
+        "pixel_accuracy": 0.998291015625,
+        "precision": 0.9891884617110045,
+        "recall": 0.9950810054605352,
+        "iou": 0.984375
+      }
+    },
+    {
+      "id": "p0008_06",
+      "group": "green_shade",
+      "baseline": {
+        "alpha_mae": 0.09722314774990082,
+        "pixel_accuracy": 0.9977880859375,
+        "precision": 0.9811787576212777,
+        "recall": 0.9987856982235215,
+        "iou": 0.9800097083094303
+      },
+      "latest": {
+        "alpha_mae": 0.025078311562538147,
+        "pixel_accuracy": 0.99857421875,
+        "precision": 0.9895586988532417,
+        "recall": 0.9973914998875647,
+        "iou": 0.9870043170590591
+      }
+    },
+    {
+      "id": "p0008_07",
+      "group": "floor_gradient",
+      "baseline": {
+        "alpha_mae": 0.293041467666626,
+        "pixel_accuracy": 0.722259521484375,
+        "precision": 0.2625891988323062,
+        "recall": 0.9977661377291634,
+        "iou": 0.2624349129809348
+      },
+      "latest": {
+        "alpha_mae": 0.06921900808811188,
+        "pixel_accuracy": 0.9356193542480469,
+        "precision": 0.6063777481210929,
+        "recall": 0.9974965336619935,
+        "iou": 0.6054563306527024
+      }
+    },
+    {
+      "id": "e0008_tiny_text_lines",
+      "group": "tiny_text_lines",
+      "baseline": {
+        "alpha_mae": 0.006083577871322632,
+        "pixel_accuracy": 0.9964404296875,
+        "precision": 0.973547870772082,
+        "recall": 0.9956491772206427,
+        "iou": 0.9694237060649274
+      },
+      "latest": {
+        "alpha_mae": 0.006186546292155981,
+        "pixel_accuracy": 0.9965673828125,
+        "precision": 0.9747753827983296,
+        "recall": 0.9954768674075989,
+        "iou": 0.97047707038468
+      }
+    },
+    {
+      "id": "e0008_translucency",
+      "group": "translucency",
+      "baseline": {
+        "alpha_mae": 0.003594388719648123,
+        "pixel_accuracy": 0.9938330078125,
+        "precision": 0.8264521640091116,
+        "recall": 0.9924773465549667,
+        "iou": 0.8213073005093379
+      },
+      "latest": {
+        "alpha_mae": 0.009882540442049503,
+        "pixel_accuracy": 0.9914501953125,
+        "precision": 0.7729816147082335,
+        "recall": 0.9919644383655326,
+        "iou": 0.7681715874486958
+      }
+    },
+    {
+      "id": "e0008_green_spill",
+      "group": "green_spill",
+      "baseline": {
+        "alpha_mae": 0.002651914255693555,
+        "pixel_accuracy": 0.9974560546875,
+        "precision": 0.9883542475399476,
+        "recall": 0.9881312333589061,
+        "iou": 0.9767587099076593
+      },
+      "latest": {
+        "alpha_mae": 0.0025847970973700285,
+        "pixel_accuracy": 0.9975341796875,
+        "precision": 0.9893780509853553,
+        "recall": 0.9878153346270139,
+        "iou": 0.9774493167812807
+      }
+    },
+    {
+      "id": "e0008_heavy_jpeg",
+      "group": "heavy_jpeg",
+      "baseline": {
+        "alpha_mae": 0.006304056849330664,
+        "pixel_accuracy": 0.9950146484375,
+        "precision": 0.9610049725202826,
+        "recall": 0.9942686944356695,
+        "iou": 0.9557107534811088
+      },
+      "latest": {
+        "alpha_mae": 0.0054441033862531185,
+        "pixel_accuracy": 0.9953564453125,
+        "precision": 0.9641919103484503,
+        "recall": 0.9939979240940475,
+        "iou": 0.9586107846977412
+      }
+    },
+    {
+      "id": "e0008_green_foreground",
+      "group": "green_foreground",
+      "baseline": {
+        "alpha_mae": 0.06422893702983856,
+        "pixel_accuracy": 0.9180078125,
+        "precision": 0.928605654048874,
+        "recall": 0.262376461031635,
+        "iou": 0.25718835707334337
+      },
+      "latest": {
+        "alpha_mae": 0.03041321597993374,
+        "pixel_accuracy": 0.9837939453125,
+        "precision": 0.9793405251373906,
+        "recall": 0.8685409991425606,
+        "iou": 0.8529138045645912
+      }
+    },
+    {
+      "id": "e0008_pale_floor",
+      "group": "pale_floor",
+      "baseline": {
+        "alpha_mae": 0.301410973072052,
+        "pixel_accuracy": 0.71578125,
+        "precision": 0.27547118103566404,
+        "recall": 0.9979692224378356,
+        "iou": 0.27531684968003783
+      },
+      "latest": {
+        "alpha_mae": 0.04827559366822243,
+        "pixel_accuracy": 0.955869140625,
+        "precision": 0.7109824730664094,
+        "recall": 0.9976984520962138,
+        "iou": 0.7098182752199319
+      }
+    },
+    {
+      "id": "e0008_off_green",
+      "group": "off_green",
+      "baseline": {
+        "alpha_mae": 0.12333521991968155,
+        "pixel_accuracy": 0.99583984375,
+        "precision": 0.9636996735582154,
+        "recall": 0.9991876889751342,
+        "iou": 0.962945244204758
+      },
+      "latest": {
+        "alpha_mae": 0.22797159850597382,
+        "pixel_accuracy": 0.912265625,
+        "precision": 0.5522972871796151,
+        "recall": 0.9986912766821607,
+        "iou": 0.5518978502668462
+      }
+    },
+    {
+      "id": "e0008_soft_shadow",
+      "group": "soft_shadow",
+      "baseline": {
+        "alpha_mae": 0.0039665973745286465,
+        "pixel_accuracy": 0.997353515625,
+        "precision": 0.9794971499270911,
+        "recall": 0.9964935940660823,
+        "iou": 0.976132810779867
+      },
+      "latest": {
+        "alpha_mae": 0.004229458048939705,
+        "pixel_accuracy": 0.9974951171875,
+        "precision": 0.9811370882040382,
+        "recall": 0.9960890087660148,
+        "iou": 0.9773719730051608
+      }
+    }
+  ],
+  "keras_tflite_max_abs_difference": 0.0005977153778076172,
+  "size_checks": [
+    {
+      "size": [
+        1,
+        1
+      ],
+      "pure_green_max_alpha": 0.0
+    },
+    {
+      "size": [
+        9,
+        7
+      ],
+      "pure_green_max_alpha": 0.0
+    },
+    {
+      "size": [
+        129,
+        127
+      ],
+      "pure_green_max_alpha": 0.0
+    },
+    {
+      "size": [
+        133,
+        261
+      ],
+      "pure_green_max_alpha": 0.0
+    }
+  ]
+}

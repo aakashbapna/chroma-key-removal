@@ -1,0 +1,32 @@
+{
+  "keras_tflite_max_alpha_difference": 0.0005858838558197021,
+  "dimensions_and_aligned_tiling": "passed",
+  "pure_green_transparency": "passed",
+  "parameters": 2010258,
+  "bytes": 4043076,
+  "under_10_mb": true,
+  "operators": [
+    "ADD",
+    "AVERAGE_POOL_2D",
+    "CONCATENATION",
+    "CONV_2D",
+    "DELEGATE",
+    "DEQUANTIZE",
+    "LOGISTIC",
+    "MINIMUM",
+    "RELU",
+    "RESHAPE",
+    "TANH",
+    "TILE"
+  ],
+  "browser_smoke_test": {
+    "model": "models/v3/product_chroma.tflite",
+    "input": "examples/v3/demo_input.png",
+    "output_size": [
+      384,
+      384
+    ],
+    "status": "Completed; transparent PNG download link available"
+  },
+  "cli_matches_evaluated_png": true
+}

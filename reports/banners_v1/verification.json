@@ -1,0 +1,9 @@
+{
+  "labeled_files_checked": 2264,
+  "source_id_and_hash_split_leakage": false,
+  "product_text_overlap_in_sampled_rows": false,
+  "exact_alpha_matches_rgba": "passed",
+  "weak_records_checked": 304,
+  "loader_shapes": "passed",
+  "new_api_calls": 0
+}

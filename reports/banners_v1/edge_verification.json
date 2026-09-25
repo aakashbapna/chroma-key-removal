@@ -1,0 +1,16 @@
+{
+  "images_checked": 1240,
+  "cases": [
+    "tiny_text_lines",
+    "translucency",
+    "green_spill",
+    "heavy_jpeg",
+    "green_foreground",
+    "pale_floor",
+    "off_green",
+    "soft_shadow"
+  ],
+  "labels_match_rgba": true,
+  "source_split_preserved": true,
+  "translucent_product_check": true
+}

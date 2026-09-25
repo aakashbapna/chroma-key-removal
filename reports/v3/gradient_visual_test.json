@@ -1,0 +1,11 @@
+{
+  "count": 3,
+  "ids": [
+    0,
+    9,
+    15
+  ],
+  "purpose": "User-requested floor-gradient and nonuniform-background hard cases; these images were excluded from weak training, but two subjects have another training view",
+  "quantitative_alpha_metrics": null,
+  "reason": "No independently known product masks; visual evaluation only."
+}

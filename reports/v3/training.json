@@ -1,0 +1,47 @@
+{
+  "stage": "initial supervised refinement",
+  "epochs_completed": 5,
+  "planned_max_epochs": 16,
+  "product_composites": 1570,
+  "shape_composites": 256,
+  "image_size": 96,
+  "generated_patches": 0,
+  "epoch_metrics": [
+    {
+      "alpha_mae": 0.0092,
+      "loss": 0.0101,
+      "val_alpha_mae": 0.0089,
+      "val_loss": 0.0103,
+      "learning_rate": 0.0002
+    },
+    {
+      "alpha_mae": 0.0089,
+      "loss": 0.0098,
+      "val_alpha_mae": 0.0088,
+      "val_loss": 0.0102,
+      "learning_rate": 0.0002
+    },
+    {
+      "alpha_mae": 0.0088,
+      "loss": 0.0096,
+      "val_alpha_mae": 0.0088,
+      "val_loss": 0.0101,
+      "learning_rate": 0.0002
+    },
+    {
+      "alpha_mae": 0.0088,
+      "loss": 0.0096,
+      "val_alpha_mae": 0.0087,
+      "val_loss": 0.01,
+      "learning_rate": 0.0002
+    },
+    {
+      "alpha_mae": 0.0087,
+      "loss": 0.0095,
+      "val_alpha_mae": 0.0086,
+      "val_loss": 0.0099,
+      "learning_rate": 0.0002
+    }
+  ],
+  "stopping_reason": "Transitioned after generated batch completed to a larger-context (128px) mixed-data fine-tuning stage. Best validation checkpoint retained; interrupted partial epoch discarded."
+}

@@ -1,0 +1,577 @@
+{
+  "test_products": 23,
+  "variants_per_product": 3,
+  "models": {
+    "v3": {
+      "alpha_mae": 0.006043389414275146,
+      "soft_edge_mae": 0.0399085203104693,
+      "foreground_iou": 0.9490952563469911,
+      "gray_composite_rgb_mae": 0.004621830612469137
+    },
+    "v2": {
+      "alpha_mae": 0.007544651924484018,
+      "soft_edge_mae": 0.051240082479257515,
+      "foreground_iou": 0.942837123494728,
+      "gray_composite_rgb_mae": 0.005029265000679006
+    },
+    "color_key": {
+      "alpha_mae": 0.010971846015098086,
+      "soft_edge_mae": 0.048738790547772165,
+      "foreground_iou": 0.95200950095089,
+      "gray_composite_rgb_mae": 0.0038197894402497764
+    }
+  },
+  "procedural": {
+    "v3": {
+      "alpha_mae": 0.01715760554179724,
+      "soft_edge_mae": 0.09415862563764676,
+      "foreground_iou": 0.8550581841514784
+    },
+    "v2": {
+      "alpha_mae": 0.01890379108954221,
+      "soft_edge_mae": 0.10101074154954404,
+      "foreground_iou": 0.860080722678555
+    },
+    "color_key": {
+      "alpha_mae": 0.027068214694736525,
+      "soft_edge_mae": 0.12209705845452845,
+      "foreground_iou": 0.830455548458872
+    }
+  },
+  "v2_minus_v3_alpha_mae_bootstrap_95ci": [
+    0.0011799828194932124,
+    0.0018450434380413397
+  ],
+  "per_product": [
+    {
+      "id": 8,
+      "methods": {
+        "v3": {
+          "alpha_mae": 0.0007381986943073571,
+          "soft_edge_mae": 0.06693076342344284,
+          "foreground_iou": 0.9946006174955179,
+          "gray_composite_rgb_mae": 0.00240511667140964
+        },
+        "v2": {
+          "alpha_mae": 0.001138916510778169,
+          "soft_edge_mae": 0.05639108642935753,
+          "foreground_iou": 0.9960204676745864,
+          "gray_composite_rgb_mae": 0.0023739915178512014
+        },
+        "color_key": {
+          "alpha_mae": 0.00734637879456083,
+          "soft_edge_mae": 0.11761072029670079,
+          "foreground_iou": 0.9923367118503948,
+          "gray_composite_rgb_mae": 0.002427468547624207
+        }
+      }
+    },
+    {
+      "id": 13,
+      "methods": {
+        "v3": {
+          "alpha_mae": 0.0037761719431728125,
+          "soft_edge_mae": 0.026585362230738003,
+          "foreground_iou": 0.9930177420363143,
+          "gray_composite_rgb_mae": 0.003638100821956844
+        },
+        "v2": {
+          "alpha_mae": 0.004931187257170677,
+          "soft_edge_mae": 0.03315090822676817,
+          "foreground_iou": 0.992412895101706,
+          "gray_composite_rgb_mae": 0.004021859508038042
+        },
+        "color_key": {
+          "alpha_mae": 0.0069570298461864395,
+          "soft_edge_mae": 0.02068739648287495,
+          "foreground_iou": 0.9927741647735707,
+          "gray_composite_rgb_mae": 0.0025503639616546096
+        }
+      }
+    },
+    {
+      "id": 19,
+      "methods": {
+        "v3": {
+          "alpha_mae": 0.0037502783040205636,
+          "soft_edge_mae": 0.04440405157705148,
+          "foreground_iou": 0.9913727552074473,
+          "gray_composite_rgb_mae": 0.004483916793639807
+        },
+        "v2": {
+          "alpha_mae": 0.0038225885946303606,
+          "soft_edge_mae": 0.040801579132676125,
+          "foreground_iou": 0.9918295770767394,
+          "gray_composite_rgb_mae": 0.004244536525747313
+        },
+        "color_key": {
+          "alpha_mae": 0.019493526468674343,
+          "soft_edge_mae": 0.10809111346801122,
+          "foreground_iou": 0.9883423137887855,
+          "gray_composite_rgb_mae": 0.007849953827423551
+        }
+      }
+    },
+    {
+      "id": 25,
+      "methods": {
+        "v3": {
+          "alpha_mae": 0.03533341363072395,
+          "soft_edge_mae": 0.05315025212864081,
+          "foreground_iou": 0.6703580027093201,
+          "gray_composite_rgb_mae": 0.017332405753209993
+        },
+        "v2": {
+          "alpha_mae": 0.038723886013031006,
+          "soft_edge_mae": 0.0677001029253006,
+          "foreground_iou": 0.6589765316065617,
+          "gray_composite_rgb_mae": 0.01894263373811615
+        },
+        "color_key": {
+          "alpha_mae": 0.027987160719931126,
+          "soft_edge_mae": 0.040541525930166245,
+          "foreground_iou": 0.7932756996145764,
+          "gray_composite_rgb_mae": 0.011096132791761934
+        }
+      }
+    },
+    {
+      "id": 26,
+      "methods": {
+        "v3": {
+          "alpha_mae": 0.017021229180196922,
+          "soft_edge_mae": 0.05686948696772257,
+          "foreground_iou": 0.9409593586846402,
+          "gray_composite_rgb_mae": 0.008160045657461661
+        },
+        "v2": {
+          "alpha_mae": 0.019992635274926823,
+          "soft_edge_mae": 0.06411069383223851,
+          "foreground_iou": 0.9418387145834014,
+          "gray_composite_rgb_mae": 0.009507562281614134
+        },
+        "color_key": {
+          "alpha_mae": 0.01614796680708726,
+          "soft_edge_mae": 0.05433296412229538,
+          "foreground_iou": 0.9534964418324505,
+          "gray_composite_rgb_mae": 0.005358715066045632
+        }
+      }
+    },
+    {
+      "id": 28,
+      "methods": {
+        "v3": {
+          "alpha_mae": 0.003641165249670545,
+          "soft_edge_mae": 0.020817866548895836,
+          "foreground_iou": 0.9968851150282161,
+          "gray_composite_rgb_mae": 0.005174956026856511
+        },
+        "v2": {
+          "alpha_mae": 0.005190810266261299,
+          "soft_edge_mae": 0.03244347435732683,
+          "foreground_iou": 0.9961971853692558,
+          "gray_composite_rgb_mae": 0.005725622903922375
+        },
+        "color_key": {
+          "alpha_mae": 0.006917576460788648,
+          "soft_edge_mae": 0.015807889712353546,
+          "foreground_iou": 0.9936070151972656,
+          "gray_composite_rgb_mae": 0.004384440044544819
+        }
+      }
+    },
+    {
+      "id": 52,
+      "methods": {
+        "v3": {
+          "alpha_mae": 0.0014443193019057314,
+          "soft_edge_mae": 0.018153797835111618,
+          "foreground_iou": 0.9799900143250323,
+          "gray_composite_rgb_mae": 0.0016473753321767978
+        },
+        "v2": {
+          "alpha_mae": 0.0030209699956079326,
+          "soft_edge_mae": 0.03635758409897486,
+          "foreground_iou": 0.974039574468773,
+          "gray_composite_rgb_mae": 0.002185335833761799
+        },
+        "color_key": {
+          "alpha_mae": 0.006762814708054066,
+          "soft_edge_mae": 0.02037505681316058,
+          "foreground_iou": 0.9788452369382231,
+          "gray_composite_rgb_mae": 0.0012814978265921774
+        }
+      }
+    },
+    {
+      "id": 67,
+      "methods": {
+        "v3": {
+          "alpha_mae": 0.003442757219697038,
+          "soft_edge_mae": 0.0981415535012881,
+          "foreground_iou": 0.8329213129670471,
+          "gray_composite_rgb_mae": 0.0022153623914994733
+        },
+        "v2": {
+          "alpha_mae": 0.004910159079978864,
+          "soft_edge_mae": 0.1176386425892512,
+          "foreground_iou": 0.7919168644975096,
+          "gray_composite_rgb_mae": 0.0021161166920760253
+        },
+        "color_key": {
+          "alpha_mae": 0.013453822893400988,
+          "soft_edge_mae": 0.1423129110286633,
+          "foreground_iou": 0.7185092995751069,
+          "gray_composite_rgb_mae": 0.0018954249118305292
+        }
+      }
+    },
+    {
+      "id": 72,
+      "methods": {
+        "v3": {
+          "alpha_mae": 0.0015453187515959144,
+          "soft_edge_mae": 0.03076578676700592,
+          "foreground_iou": 0.9660058808412272,
+          "gray_composite_rgb_mae": 0.0012172604431621569
+        },
+        "v2": {
+          "alpha_mae": 0.0027430092450231314,
+          "soft_edge_mae": 0.0448444609840711,
+          "foreground_iou": 0.9637791881972545,
+          "gray_composite_rgb_mae": 0.0015618775720643615
+        },
+        "color_key": {
+          "alpha_mae": 0.005483689252287149,
+          "soft_edge_mae": 0.031145515541235607,
+          "foreground_iou": 0.9669850985169766,
+          "gray_composite_rgb_mae": 0.0009760983777312287
+        }
+      }
+    },
+    {
+      "id": 74,
+      "methods": {
+        "v3": {
+          "alpha_mae": 0.0017734378343448043,
+          "soft_edge_mae": 0.03767737994591395,
+          "foreground_iou": 0.9495497058404326,
+          "gray_composite_rgb_mae": 0.0013597825515635313
+        },
+        "v2": {
+          "alpha_mae": 0.0023766111116856337,
+          "soft_edge_mae": 0.04461450998981794,
+          "foreground_iou": 0.9470774256120859,
+          "gray_composite_rgb_mae": 0.0013377900697123784
+        },
+        "color_key": {
+          "alpha_mae": 0.009832771494984627,
+          "soft_edge_mae": 0.060465358197689056,
+          "foreground_iou": 0.9160328867251302,
+          "gray_composite_rgb_mae": 0.0009519100631681901
+        }
+      }
+    },
+    {
+      "id": 75,
+      "methods": {
+        "v3": {
+          "alpha_mae": 0.0033423465210944414,
+          "soft_edge_mae": 0.02576046685377757,
+          "foreground_iou": 0.9943945189692128,
+          "gray_composite_rgb_mae": 0.002269247385603399
+        },
+        "v2": {
+          "alpha_mae": 0.004606606865612169,
+          "soft_edge_mae": 0.04004311064879099,
+          "foreground_iou": 0.9915613647073412,
+          "gray_composite_rgb_mae": 0.0026848810439977742
+        },
+        "color_key": {
+          "alpha_mae": 0.007034003268927336,
+          "soft_edge_mae": 0.026251644516984623,
+          "foreground_iou": 0.9961736237417872,
+          "gray_composite_rgb_mae": 0.0022970168420970317
+        }
+      }
+    },
+    {
+      "id": 81,
+      "methods": {
+        "v3": {
+          "alpha_mae": 0.002698079372445742,
+          "soft_edge_mae": 0.031033579880992573,
+          "foreground_iou": 0.996313205831707,
+          "gray_composite_rgb_mae": 0.003590352688130772
+        },
+        "v2": {
+          "alpha_mae": 0.004283202889685829,
+          "soft_edge_mae": 0.05259174729386965,
+          "foreground_iou": 0.9947624237988338,
+          "gray_composite_rgb_mae": 0.00393403739160189
+        },
+        "color_key": {
+          "alpha_mae": 0.006497670896351337,
+          "soft_edge_mae": 0.05093220869700114,
+          "foreground_iou": 0.9903095245460314,
+          "gray_composite_rgb_mae": 0.002607265585131678
+        }
+      }
+    },
+    {
+      "id": 87,
+      "methods": {
+        "v3": {
+          "alpha_mae": 0.0020539886318147182,
+          "soft_edge_mae": 0.021141697963078816,
+          "foreground_iou": 0.9959107563596213,
+          "gray_composite_rgb_mae": 0.003978396522327681
+        },
+        "v2": {
+          "alpha_mae": 0.0036057751470555863,
+          "soft_edge_mae": 0.03487329185009003,
+          "foreground_iou": 0.9927805489388319,
+          "gray_composite_rgb_mae": 0.004357865047183211
+        },
+        "color_key": {
+          "alpha_mae": 0.00825235185523828,
+          "soft_edge_mae": 0.021583815726141136,
+          "foreground_iou": 0.9950952646183886,
+          "gray_composite_rgb_mae": 0.003711567791891257
+        }
+      }
+    },
+    {
+      "id": 92,
+      "methods": {
+        "v3": {
+          "alpha_mae": 0.004694119406243165,
+          "soft_edge_mae": 0.025732815265655518,
+          "foreground_iou": 0.9895466971575425,
+          "gray_composite_rgb_mae": 0.0052667609278373535
+        },
+        "v2": {
+          "alpha_mae": 0.0058942387501398725,
+          "soft_edge_mae": 0.03634582584102949,
+          "foreground_iou": 0.988940979509532,
+          "gray_composite_rgb_mae": 0.005678016994645994
+        },
+        "color_key": {
+          "alpha_mae": 0.01077402321000894,
+          "soft_edge_mae": 0.03438990190625191,
+          "foreground_iou": 0.9786883100955515,
+          "gray_composite_rgb_mae": 0.004241111608284065
+        }
+      }
+    },
+    {
+      "id": 93,
+      "methods": {
+        "v3": {
+          "alpha_mae": 0.0019480485158662002,
+          "soft_edge_mae": 0.03590578647951285,
+          "foreground_iou": 0.9857334962870987,
+          "gray_composite_rgb_mae": 0.003887613329976307
+        },
+        "v2": {
+          "alpha_mae": 0.0027488164293269315,
+          "soft_edge_mae": 0.044850838681062065,
+          "foreground_iou": 0.9866535695097601,
+          "gray_composite_rgb_mae": 0.004002286138560252
+        },
+        "color_key": {
+          "alpha_mae": 0.010073592886328697,
+          "soft_edge_mae": 0.0490745659917593,
+          "foreground_iou": 0.9749271645206798,
+          "gray_composite_rgb_mae": 0.003745008982504333
+        }
+      }
+    },
+    {
+      "id": 109,
+      "methods": {
+        "v3": {
+          "alpha_mae": 0.0015716535272076726,
+          "soft_edge_mae": 0.03550602123141289,
+          "foreground_iou": 0.9846008346154954,
+          "gray_composite_rgb_mae": 0.0018812812366221622
+        },
+        "v2": {
+          "alpha_mae": 0.0028431684089203677,
+          "soft_edge_mae": 0.05553220336635908,
+          "foreground_iou": 0.9777374492571808,
+          "gray_composite_rgb_mae": 0.002066005218112822
+        },
+        "color_key": {
+          "alpha_mae": 0.008513646200299263,
+          "soft_edge_mae": 0.043117024625341095,
+          "foreground_iou": 0.9852493374626808,
+          "gray_composite_rgb_mae": 0.0014020781689074587
+        }
+      }
+    },
+    {
+      "id": 142,
+      "methods": {
+        "v3": {
+          "alpha_mae": 0.0017497708710531394,
+          "soft_edge_mae": 0.02023276314139366,
+          "foreground_iou": 0.990707229548332,
+          "gray_composite_rgb_mae": 0.0030028798701052816
+        },
+        "v2": {
+          "alpha_mae": 0.003203067540501555,
+          "soft_edge_mae": 0.03562461708982786,
+          "foreground_iou": 0.9925751452263937,
+          "gray_composite_rgb_mae": 0.0035346050338035226
+        },
+        "color_key": {
+          "alpha_mae": 0.004577775641034047,
+          "soft_edge_mae": 0.015132931992411613,
+          "foreground_iou": 0.9943828395908015,
+          "gray_composite_rgb_mae": 0.0027398719978095534
+        }
+      }
+    },
+    {
+      "id": 154,
+      "methods": {
+        "v3": {
+          "alpha_mae": 0.0018979777038718264,
+          "soft_edge_mae": 0.025669618820150692,
+          "foreground_iou": 0.984160655386272,
+          "gray_composite_rgb_mae": 0.0016856532419917195
+        },
+        "v2": {
+          "alpha_mae": 0.0033244574442505836,
+          "soft_edge_mae": 0.04326379547516505,
+          "foreground_iou": 0.9759907063402701,
+          "gray_composite_rgb_mae": 0.001991929248089524
+        },
+        "color_key": {
+          "alpha_mae": 0.008149313274770975,
+          "soft_edge_mae": 0.037583366657296814,
+          "foreground_iou": 0.98031117841901,
+          "gray_composite_rgb_mae": 0.0013059118347246675
+        }
+      }
+    },
+    {
+      "id": 156,
+      "methods": {
+        "v3": {
+          "alpha_mae": 0.013719080636898676,
+          "soft_edge_mae": 0.08470119287570317,
+          "foreground_iou": 0.9807760617791649,
+          "gray_composite_rgb_mae": 0.007443205820123776
+        },
+        "v2": {
+          "alpha_mae": 0.01727826117227475,
+          "soft_edge_mae": 0.10274496177832286,
+          "foreground_iou": 0.9762743939250033,
+          "gray_composite_rgb_mae": 0.008771045662586597
+        },
+        "color_key": {
+          "alpha_mae": 0.015783114358782768,
+          "soft_edge_mae": 0.05696291849017143,
+          "foreground_iou": 0.9814216154426814,
+          "gray_composite_rgb_mae": 0.0048347983122372
+        }
+      }
+    },
+    {
+      "id": 158,
+      "methods": {
+        "v3": {
+          "alpha_mae": 0.009388193022459745,
+          "soft_edge_mae": 0.05285946031411489,
+          "foreground_iou": 0.6625562929559355,
+          "gray_composite_rgb_mae": 0.004072769866678292
+        },
+        "v2": {
+          "alpha_mae": 0.01108515573044618,
+          "soft_edge_mae": 0.06123629957437515,
+          "foreground_iou": 0.6301238547198049,
+          "gray_composite_rgb_mae": 0.004357952571171868
+        },
+        "color_key": {
+          "alpha_mae": 0.011177271604537964,
+          "soft_edge_mae": 0.03274491305152575,
+          "foreground_iou": 0.7572066930760237,
+          "gray_composite_rgb_mae": 0.0020994758255609342
+        }
+      }
+    },
+    {
+      "id": 159,
+      "methods": {
+        "v3": {
+          "alpha_mae": 0.015337939995030562,
+          "soft_edge_mae": 0.04603821411728859,
+          "foreground_iou": 0.9630876796813403,
+          "gray_composite_rgb_mae": 0.010539089096519925
+        },
+        "v2": {
+          "alpha_mae": 0.017181461056073506,
+          "soft_edge_mae": 0.050853716830412544,
+          "foreground_iou": 0.9446308121732977,
+          "gray_composite_rgb_mae": 0.011012079937867991
+        },
+        "color_key": {
+          "alpha_mae": 0.023457646369934082,
+          "soft_edge_mae": 0.05634107440710068,
+          "foreground_iou": 0.989719489624315,
+          "gray_composite_rgb_mae": 0.01129025545777427
+        }
+      }
+    },
+    {
+      "id": 169,
+      "methods": {
+        "v3": {
+          "alpha_mae": 0.006845997801671426,
+          "soft_edge_mae": 0.03442597451309363,
+          "foreground_iou": 0.9951762318899364,
+          "gray_composite_rgb_mae": 0.009021181256777677
+        },
+        "v2": {
+          "alpha_mae": 0.008437023342897495,
+          "soft_edge_mae": 0.043703317642211914,
+          "foreground_iou": 0.9927285036502803,
+          "gray_composite_rgb_mae": 0.009067740250401237
+        },
+        "color_key": {
+          "alpha_mae": 0.011130877770483494,
+          "soft_edge_mae": 0.051138900220394135,
+          "foreground_iou": 0.9920865327049803,
+          "gray_composite_rgb_mae": 0.007221651623751207
+        }
+      }
+    },
+    {
+      "id": 194,
+      "methods": {
+        "v3": {
+          "alpha_mae": 0.0012844704130354028,
+          "soft_edge_mae": 0.02539207475880782,
+          "foreground_iou": 0.990566730383941,
+          "gray_composite_rgb_mae": 0.002029350401159405
+        },
+        "v2": {
+          "alpha_mae": 0.002184986136853695,
+          "soft_edge_mae": 0.0388051283856233,
+          "foreground_iou": 0.9864056644343386,
+          "gray_composite_rgb_mae": 0.0021973238346906735
+        },
+        "color_key": {
+          "alpha_mae": 0.006548433564603329,
+          "soft_edge_mae": 0.03436846472322941,
+          "foreground_iou": 0.9864420792150551,
+          "gray_composite_rgb_mae": 0.0015871376766943383
+        }
+      }
+    }
+  ],
+  "label_source": "Source-provided downloaded alpha; identical test setup to V2."
+}

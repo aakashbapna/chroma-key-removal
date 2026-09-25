@@ -1,0 +1,42 @@
+{
+  "test_count": 64,
+  "test_seeds": [
+    200000,
+    200063
+  ],
+  "scope": "Procedural shapes/text, not real AI banners. Green foreground stress reported separately.",
+  "deeplab_assumptions": "Class 0 background, all other classes foreground; input normalization chosen on 8 validation samples; no metadata supplied.",
+  "deeplab_validation_normalization_mae": {
+    "minus_one_one": 0.15626478753983974,
+    "zero_one": 0.15924633294343948,
+    "raw": 0.15924633294343948
+  },
+  "deeplab_normalization": "minus_one_one",
+  "models": {
+    "model": {
+      "alpha_mae": 0.024248464054835495,
+      "soft_edge_mae": 0.1092624495504424,
+      "foreground_iou": 0.8509982657771047,
+      "median_native_ms_128x128": 4.396437201648951
+    },
+    "color_key": {
+      "alpha_mae": 0.03137211695138831,
+      "soft_edge_mae": 0.135875361826038,
+      "foreground_iou": 0.8197919473884067,
+      "median_native_ms_128x128": 0.027937348932027817
+    },
+    "deeplab": {
+      "alpha_mae": 0.1508987697015982,
+      "soft_edge_mae": 0.4480499969795346,
+      "foreground_iou": 0.056111787841801236,
+      "median_native_ms_128x128": 12.202125508338213
+    }
+  },
+  "green_foreground_stress": {
+    "alpha_mae": 0.11887891963124275,
+    "soft_edge_mae": 0.3724962677806616,
+    "foreground_iou": 0.002139227218770827
+  },
+  "model_bytes": 11260,
+  "deeplab_bytes": 2779264
+}

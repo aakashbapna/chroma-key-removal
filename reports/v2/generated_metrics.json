@@ -1,0 +1,28 @@
+{
+  "independent_generated_sources": 1,
+  "products_in_sheet": 6,
+  "jpeg_qualities": [
+    60,
+    80,
+    95
+  ],
+  "training_use": "None; entire generated source held out",
+  "ground_truth": "Actual generated PNG alpha, preserved before green compositing; not a hand-corrected real-world mask",
+  "methods": {
+    "larger_v2": {
+      "alpha_mae": 0.007027499998609225,
+      "soft_edge_mae": 0.06763780613740285,
+      "foreground_iou": 0.99552898291551
+    },
+    "small_v1": {
+      "alpha_mae": 0.02449873151878516,
+      "soft_edge_mae": 0.09614587326844533,
+      "foreground_iou": 0.9934216214125402
+    },
+    "color_key": {
+      "alpha_mae": 0.015471662705143293,
+      "soft_edge_mae": 0.11279712617397308,
+      "foreground_iou": 0.9918213452822088
+    }
+  }
+}

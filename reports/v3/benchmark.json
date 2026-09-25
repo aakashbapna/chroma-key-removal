@@ -1,0 +1,15 @@
+{
+  "input": [
+    256,
+    256
+  ],
+  "warm_runs": 8,
+  "threads": 2,
+  "scope": "Standalone native CPU, includes tiling, not browser latency",
+  "v3": {
+    "median_ms": 857.1619787253439
+  },
+  "v2": {
+    "median_ms": 91.507020406425
+  }
+}

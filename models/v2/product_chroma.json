@@ -1,0 +1,8 @@
+{
+  "tile": 160,
+  "halo": 12,
+  "stride": 136,
+  "input": "float32 RGB [0,1]",
+  "output": "float32 alpha [0,1]",
+  "receptive_field": 23
+}

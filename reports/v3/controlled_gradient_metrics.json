@@ -1,0 +1,22 @@
+{
+  "source_products": 23,
+  "background": "Pure green upper 40%, linear ramp to white floor below; JPEG quality 85",
+  "label_source": "Known original product alpha, not pseudo-labels",
+  "methods": {
+    "v3": {
+      "alpha_mae": 0.3044742702142052,
+      "soft_edge_mae": 0.22387678435315256,
+      "foreground_iou": 0.2603814542421955
+    },
+    "v2": {
+      "alpha_mae": 0.2998149019220601,
+      "soft_edge_mae": 0.21984524231242097,
+      "foreground_iou": 0.26277354837780637
+    },
+    "color_key": {
+      "alpha_mae": 0.2886400773473408,
+      "soft_edge_mae": 0.2287650143970614,
+      "foreground_iou": 0.26495323109466845
+    }
+  }
+}

@@ -1,0 +1,400 @@
+{
+  "scope": "18 held-out products, 6 per background kind; existing models, no banner fine-tuning",
+  "summary": {
+    "solid_green": {
+      "count": 6,
+      "v3": {
+        "alpha_mae": 0.0034086844922664263,
+        "text_alpha_mae": 0.037770237773656845,
+        "product_alpha_mae": 0.019736710586585104,
+        "background_leakage": 0.00028531722152062383,
+        "seconds": 2.9809406315907836
+      },
+      "v2": {
+        "alpha_mae": 0.004649342658619086,
+        "text_alpha_mae": 0.040606483817100525,
+        "product_alpha_mae": 0.02889518963638693,
+        "background_leakage": 0.0008585707012874385,
+        "seconds": 0.318295805559804
+      }
+    },
+    "green_shade": {
+      "count": 6,
+      "v3": {
+        "alpha_mae": 0.09250173221031825,
+        "text_alpha_mae": 0.05959717618922392,
+        "product_alpha_mae": 0.029935884444663923,
+        "background_leakage": 0.10657757769028346,
+        "seconds": 3.284467451274395
+      },
+      "v2": {
+        "alpha_mae": 0.08213918283581734,
+        "text_alpha_mae": 0.06011381993691126,
+        "product_alpha_mae": 0.025675153204550345,
+        "background_leakage": 0.09450127184391022,
+        "seconds": 0.3478759932331741
+      }
+    },
+    "floor_gradient": {
+      "count": 6,
+      "v3": {
+        "alpha_mae": 0.3013988633950551,
+        "text_alpha_mae": 0.03876956459134817,
+        "product_alpha_mae": 0.15697356561819711,
+        "background_leakage": 0.33408205211162567,
+        "seconds": 3.2737660558583834
+      },
+      "v2": {
+        "alpha_mae": 0.2967178871234258,
+        "text_alpha_mae": 0.040844058617949486,
+        "product_alpha_mae": 0.15549145514766374,
+        "background_leakage": 0.328673779964447,
+        "seconds": 0.3495055415357153
+      }
+    }
+  },
+  "samples": [
+    {
+      "id": "p0008_00",
+      "background_kind": "solid_green",
+      "input": "datasets/banners_v1/labeled/test/p0008_00.jpg",
+      "v3": {
+        "alpha_mae": 0.0016643292037770152,
+        "text_alpha_mae": 0.039839547127485275,
+        "product_alpha_mae": 0.0033669702243059874,
+        "background_leakage": 0.00018600598559714854,
+        "seconds": 3.1483415830880404
+      },
+      "v2": {
+        "alpha_mae": 0.00232356577180326,
+        "text_alpha_mae": 0.042546506971120834,
+        "product_alpha_mae": 0.003581940894946456,
+        "background_leakage": 0.0008005682611837983,
+        "seconds": 0.3411523746326566
+      }
+    },
+    {
+      "id": "p0013_06",
+      "background_kind": "green_shade",
+      "input": "datasets/banners_v1/labeled/test/p0013_06.jpg",
+      "v3": {
+        "alpha_mae": 0.08811686187982559,
+        "text_alpha_mae": 0.03499804809689522,
+        "product_alpha_mae": 0.03341588377952576,
+        "background_leakage": 0.10268238931894302,
+        "seconds": 3.393812124617398
+      },
+      "v2": {
+        "alpha_mae": 0.07814435660839081,
+        "text_alpha_mae": 0.03589608520269394,
+        "product_alpha_mae": 0.025597630068659782,
+        "background_leakage": 0.09187514334917068,
+        "seconds": 0.3604629999026656
+      }
+    },
+    {
+      "id": "p0052_07",
+      "background_kind": "floor_gradient",
+      "input": "datasets/banners_v1/labeled/test/p0052_07.jpg",
+      "v3": {
+        "alpha_mae": 0.30784833431243896,
+        "text_alpha_mae": 0.033262841403484344,
+        "product_alpha_mae": 0.10942396521568298,
+        "background_leakage": 0.34914201498031616,
+        "seconds": 3.203977416269481
+      },
+      "v2": {
+        "alpha_mae": 0.30262765288352966,
+        "text_alpha_mae": 0.03703150153160095,
+        "product_alpha_mae": 0.10306117683649063,
+        "background_leakage": 0.34382444620132446,
+        "seconds": 0.3396758744493127
+      }
+    },
+    {
+      "id": "p0067_00",
+      "background_kind": "solid_green",
+      "input": "datasets/banners_v1/labeled/test/p0067_00.jpg",
+      "v3": {
+        "alpha_mae": 0.0029613713268190622,
+        "text_alpha_mae": 0.0388917550444603,
+        "product_alpha_mae": 0.045480333268642426,
+        "background_leakage": 0.0003357958048582077,
+        "seconds": 3.12824699934572
+      },
+      "v2": {
+        "alpha_mae": 0.004632402211427689,
+        "text_alpha_mae": 0.04704625904560089,
+        "product_alpha_mae": 0.07694484293460846,
+        "background_leakage": 0.0009672989253886044,
+        "seconds": 0.33861991576850414
+      }
+    },
+    {
+      "id": "p0072_06",
+      "background_kind": "green_shade",
+      "input": "datasets/banners_v1/labeled/test/p0072_06.jpg",
+      "v3": {
+        "alpha_mae": 0.10124172270298004,
+        "text_alpha_mae": 0.059263430535793304,
+        "product_alpha_mae": 0.06850293278694153,
+        "background_leakage": 0.10609743744134903,
+        "seconds": 3.240761791355908
+      },
+      "v2": {
+        "alpha_mae": 0.08975186198949814,
+        "text_alpha_mae": 0.05831867828965187,
+        "product_alpha_mae": 0.05643988028168678,
+        "background_leakage": 0.09425869584083557,
+        "seconds": 0.33729987498372793
+      }
+    },
+    {
+      "id": "p0074_07",
+      "background_kind": "floor_gradient",
+      "input": "datasets/banners_v1/labeled/test/p0074_07.jpg",
+      "v3": {
+        "alpha_mae": 0.30168479681015015,
+        "text_alpha_mae": 0.04036099836230278,
+        "product_alpha_mae": 0.16190743446350098,
+        "background_leakage": 0.3247619867324829,
+        "seconds": 3.473797917366028
+      },
+      "v2": {
+        "alpha_mae": 0.2964882552623749,
+        "text_alpha_mae": 0.03767687454819679,
+        "product_alpha_mae": 0.1563253551721573,
+        "background_leakage": 0.3194328844547272,
+        "seconds": 0.3640111666172743
+      }
+    },
+    {
+      "id": "p0075_00",
+      "background_kind": "solid_green",
+      "input": "datasets/banners_v1/labeled/test/p0075_00.jpg",
+      "v3": {
+        "alpha_mae": 0.0023903283290565014,
+        "text_alpha_mae": 0.033841848373413086,
+        "product_alpha_mae": 0.006632920354604721,
+        "background_leakage": 0.0003868881904054433,
+        "seconds": 3.3144565830007195
+      },
+      "v2": {
+        "alpha_mae": 0.0035419210325926542,
+        "text_alpha_mae": 0.03837263584136963,
+        "product_alpha_mae": 0.012307334691286087,
+        "background_leakage": 0.0009397041285410523,
+        "seconds": 0.341241417452693
+      }
+    },
+    {
+      "id": "p0081_06",
+      "background_kind": "green_shade",
+      "input": "datasets/banners_v1/labeled/test/p0081_06.jpg",
+      "v3": {
+        "alpha_mae": 0.08610613644123077,
+        "text_alpha_mae": 0.07827531546354294,
+        "product_alpha_mae": 0.011080839671194553,
+        "background_leakage": 0.10638894140720367,
+        "seconds": 3.2498424174264073
+      },
+      "v2": {
+        "alpha_mae": 0.0768597275018692,
+        "text_alpha_mae": 0.07479118555784225,
+        "product_alpha_mae": 0.011728418059647083,
+        "background_leakage": 0.09440024197101593,
+        "seconds": 0.3386362502351403
+      }
+    },
+    {
+      "id": "p0087_07",
+      "background_kind": "floor_gradient",
+      "input": "datasets/banners_v1/labeled/test/p0087_07.jpg",
+      "v3": {
+        "alpha_mae": 0.28699371218681335,
+        "text_alpha_mae": 0.0576469749212265,
+        "product_alpha_mae": 0.12985092401504517,
+        "background_leakage": 0.3381282389163971,
+        "seconds": 3.1648276671767235
+      },
+      "v2": {
+        "alpha_mae": 0.283057302236557,
+        "text_alpha_mae": 0.06794780492782593,
+        "product_alpha_mae": 0.13038849830627441,
+        "background_leakage": 0.3325051963329315,
+        "seconds": 0.33784862514585257
+      }
+    },
+    {
+      "id": "p0092_00",
+      "background_kind": "solid_green",
+      "input": "datasets/banners_v1/labeled/test/p0092_00.jpg",
+      "v3": {
+        "alpha_mae": 0.0033776136115193367,
+        "text_alpha_mae": 0.04484955593943596,
+        "product_alpha_mae": 0.005892637185752392,
+        "background_leakage": 0.0003828053886536509,
+        "seconds": 3.240815249271691
+      },
+      "v2": {
+        "alpha_mae": 0.004715896211564541,
+        "text_alpha_mae": 0.04241552948951721,
+        "product_alpha_mae": 0.011631887406110764,
+        "background_leakage": 0.0008645493071526289,
+        "seconds": 0.3413977501913905
+      }
+    },
+    {
+      "id": "p0093_06",
+      "background_kind": "green_shade",
+      "input": "datasets/banners_v1/labeled/test/p0093_06.jpg",
+      "v3": {
+        "alpha_mae": 0.09762939810752869,
+        "text_alpha_mae": 0.078241728246212,
+        "product_alpha_mae": 0.013096585869789124,
+        "background_leakage": 0.10779234766960144,
+        "seconds": 3.4714978747069836
+      },
+      "v2": {
+        "alpha_mae": 0.08633920550346375,
+        "text_alpha_mae": 0.08303036540746689,
+        "product_alpha_mae": 0.00894191861152649,
+        "background_leakage": 0.09532022476196289,
+        "seconds": 0.3630009163171053
+      }
+    },
+    {
+      "id": "p0109_07",
+      "background_kind": "floor_gradient",
+      "input": "datasets/banners_v1/labeled/test/p0109_07.jpg",
+      "v3": {
+        "alpha_mae": 0.30379077792167664,
+        "text_alpha_mae": 0.03903301805257797,
+        "product_alpha_mae": 0.16049399971961975,
+        "background_leakage": 0.3274786174297333,
+        "seconds": 3.2247770000249147
+      },
+      "v2": {
+        "alpha_mae": 0.2984481155872345,
+        "text_alpha_mae": 0.035184524953365326,
+        "product_alpha_mae": 0.15988048911094666,
+        "background_leakage": 0.32157260179519653,
+        "seconds": 0.34008866641670465
+      }
+    },
+    {
+      "id": "p0142_00",
+      "background_kind": "solid_green",
+      "input": "datasets/banners_v1/labeled/test/p0142_00.jpg",
+      "v3": {
+        "alpha_mae": 0.002819458022713661,
+        "text_alpha_mae": 0.031473878771066666,
+        "product_alpha_mae": 0.008518876507878304,
+        "background_leakage": 0.0001571128232171759,
+        "seconds": 2.542285416275263
+      },
+      "v2": {
+        "alpha_mae": 0.004233531188219786,
+        "text_alpha_mae": 0.037514593452215195,
+        "product_alpha_mae": 0.012731844559311867,
+        "background_leakage": 0.0007596131763420999,
+        "seconds": 0.2745389584451914
+      }
+    },
+    {
+      "id": "p0154_06",
+      "background_kind": "green_shade",
+      "input": "datasets/banners_v1/labeled/test/p0154_06.jpg",
+      "v3": {
+        "alpha_mae": 0.09812742471694946,
+        "text_alpha_mae": 0.05587251856923103,
+        "product_alpha_mae": 0.029003607109189034,
+        "background_leakage": 0.10940230637788773,
+        "seconds": 3.206176582723856
+      },
+      "v2": {
+        "alpha_mae": 0.08635187894105911,
+        "text_alpha_mae": 0.054000917822122574,
+        "product_alpha_mae": 0.025461532175540924,
+        "background_leakage": 0.09630817174911499,
+        "seconds": 0.3457571677863598
+      }
+    },
+    {
+      "id": "p0156_07",
+      "background_kind": "floor_gradient",
+      "input": "datasets/banners_v1/labeled/test/p0156_07.jpg",
+      "v3": {
+        "alpha_mae": 0.31090062856674194,
+        "text_alpha_mae": 0.029455216601490974,
+        "product_alpha_mae": 0.20394182205200195,
+        "background_leakage": 0.34307631850242615,
+        "seconds": 3.179897917434573
+      },
+      "v2": {
+        "alpha_mae": 0.3073015511035919,
+        "text_alpha_mae": 0.03206801041960716,
+        "product_alpha_mae": 0.2081104964017868,
+        "background_leakage": 0.3383060097694397,
+        "seconds": 0.3476488748565316
+      }
+    },
+    {
+      "id": "p0158_00",
+      "background_kind": "solid_green",
+      "input": "datasets/banners_v1/labeled/test/p0158_00.jpg",
+      "v3": {
+        "alpha_mae": 0.007239006459712982,
+        "text_alpha_mae": 0.03772484138607979,
+        "product_alpha_mae": 0.0485285259783268,
+        "background_leakage": 0.00026329513639211655,
+        "seconds": 2.511497958563268
+      },
+      "v2": {
+        "alpha_mae": 0.008448739536106586,
+        "text_alpha_mae": 0.03574337810277939,
+        "product_alpha_mae": 0.05617328733205795,
+        "background_leakage": 0.000819690409116447,
+        "seconds": 0.27282441686838865
+      }
+    },
+    {
+      "id": "p0159_06",
+      "background_kind": "green_shade",
+      "input": "datasets/banners_v1/labeled/test/p0159_06.jpg",
+      "v3": {
+        "alpha_mae": 0.08378884941339493,
+        "text_alpha_mae": 0.05093201622366905,
+        "product_alpha_mae": 0.024515457451343536,
+        "background_leakage": 0.10710204392671585,
+        "seconds": 3.1447139168158174
+      },
+      "v2": {
+        "alpha_mae": 0.07538806647062302,
+        "text_alpha_mae": 0.054645687341690063,
+        "product_alpha_mae": 0.025881540030241013,
+        "background_leakage": 0.09484515339136124,
+        "seconds": 0.34209875017404556
+      }
+    },
+    {
+      "id": "p0194_07",
+      "background_kind": "floor_gradient",
+      "input": "datasets/banners_v1/labeled/test/p0194_07.jpg",
+      "v3": {
+        "alpha_mae": 0.29717493057250977,
+        "text_alpha_mae": 0.032858338207006454,
+        "product_alpha_mae": 0.1762232482433319,
+        "background_leakage": 0.32190513610839844,
+        "seconds": 3.395318416878581
+      },
+      "v2": {
+        "alpha_mae": 0.29238444566726685,
+        "text_alpha_mae": 0.035155635327100754,
+        "product_alpha_mae": 0.17518271505832672,
+        "background_leakage": 0.31640154123306274,
+        "seconds": 0.36776004172861576
+      }
+    }
+  ]
+}

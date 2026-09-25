@@ -1,0 +1,20 @@
+{
+  "independent_sources": 1,
+  "methods": {
+    "v3": {
+      "alpha_mae": 0.00674320509036382,
+      "soft_edge_mae": 0.06591257452964783,
+      "foreground_iou": 0.9960799097308936
+    },
+    "v2": {
+      "alpha_mae": 0.007027499998609225,
+      "soft_edge_mae": 0.06763780613740285,
+      "foreground_iou": 0.99552898291551
+    },
+    "color_key": {
+      "alpha_mae": 0.015471662705143293,
+      "soft_edge_mae": 0.11279712617397308,
+      "foreground_iou": 0.9918213452822088
+    }
+  }
+}

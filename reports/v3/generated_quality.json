@@ -1,0 +1,14 @@
+{
+  "raw_images": 98,
+  "accepted": 95,
+  "rejected_ids": [
+    0,
+    9,
+    15
+  ],
+  "accepted_by_split": {
+    "train_weak": 76,
+    "test_visual_only": 19
+  },
+  "normalization": "Only connected high-confidence exterior set to exact RGB(0,255,0); no ground-truth product alpha inferred."
+}

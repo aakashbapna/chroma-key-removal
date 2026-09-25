@@ -1,0 +1,18 @@
+{
+  "counts": {
+    "train": 1024,
+    "validation": 72,
+    "test": 144
+  },
+  "cases": [
+    "tiny_text_lines",
+    "translucency",
+    "green_spill",
+    "heavy_jpeg",
+    "green_foreground",
+    "pale_floor",
+    "off_green",
+    "soft_shadow"
+  ],
+  "source_split_overlap": false
+}

@@ -1,0 +1,23 @@
+{
+  "keras_tflite_max_alpha_difference": 0.0005576908588409424,
+  "dimensions_and_tiling": "passed",
+  "pure_green_transparency": "passed",
+  "parameters": 63089,
+  "operators": [
+    "CONV_2D",
+    "DELEGATE",
+    "DEQUANTIZE",
+    "LOGISTIC"
+  ],
+  "cli_matches_evaluated_png": true,
+  "browser_smoke_test": {
+    "runtime": "tfjs-tflite alpha.9",
+    "model": "models/v2/product_chroma.tflite",
+    "input": "examples/v2/demo_input.png",
+    "output_size": [
+      640,
+      640
+    ],
+    "status": "Done; PNG download link available"
+  }
+}

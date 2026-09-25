@@ -1,0 +1,6 @@
+{
+  "max_keras_tflite_alpha_difference": 0.00033718347549438477,
+  "tile_seams_checked_on": "257x257",
+  "tiny_and_non_multiple_dimensions": "passed",
+  "pure_green_fully_transparent": "passed"
+}

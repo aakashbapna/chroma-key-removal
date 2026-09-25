@@ -1,0 +1,52 @@
+# Python environments, caches, build outputs
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Credentials and local machine configuration
+.env
+.env.*
+!.env.example
+*credentials*.json
+*service-account*.json
+*.pem
+*.key
+.DS_Store
+.idea/
+.vscode/
+
+# Raw/downloaded/generated datasets; keep provenance and documentation
+datasets/**
+!datasets/**/
+!datasets/**/README.md
+!datasets/**/manifest.json
+!datasets/**/manifest.jsonl
+!datasets/**/gemini_manifest.jsonl
+!datasets/**/prepared_manifest.json
+
+# Training optimizer checkpoints; publish compact inference/resume checkpoints
+*.keras
+!models/v3/resume.keras
+!models/banner_latest/resume.keras
+*.h5
+*.ckpt*
+checkpoints/
+logs/
+*.log
+*.tmp
+
+# Per-image experiments are regenerable; keep aggregate reports and selected previews
+reports/banners_v1/evaluation/*_v2.png
+reports/banners_v1/evaluation/*_v3.png
+reports/banners_v1/evaluation/*_comparison.jpg
+!reports/banners_v1/evaluation/generated_comparison.jpg
+examples/v3/product_*.png
+examples/v3/gemini_*.png
+examples/v3/gradient_*.png

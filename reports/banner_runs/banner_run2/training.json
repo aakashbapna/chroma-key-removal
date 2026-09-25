@@ -1,0 +1,25 @@
+{
+  "source": "models/banner_run1/best.keras",
+  "parameters": 2010258,
+  "training_examples_per_epoch": 3376,
+  "weak_examples": 304,
+  "edge_examples": 1024,
+  "initial_validation_loss": 0.032703936100006104,
+  "best_validation_loss": 0.02627028338611126,
+  "selection": "minimum fixed validation loss including unchanged starting checkpoint",
+  "epochs": [
+    {
+      "epoch": 1,
+      "loss": 0.01763864979147911,
+      "val_loss": 0.0272123571485281
+    },
+    {
+      "epoch": 2,
+      "loss": 0.015986310318112373,
+      "val_loss": 0.02627028338611126
+    }
+  ],
+  "seconds": 467.52995681762695,
+  "seed": 5100,
+  "learning_rate": 5e-05
+}
