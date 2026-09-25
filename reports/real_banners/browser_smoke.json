@@ -1,8 +1,11 @@
 {
-  "selected_model_sha256": "7ba60b184647c1fbb1b71655ce085e0ef575717b0d9f55d56d3791037404e689",
-  "watch": "Done \u2014 896 \u00d7 1200 transparent PNG",
-  "makeup": "Preserved intact \u2014 1280 \u00d7 543 PNG",
-  "neural_floor_fallback": "Done \u2014 512 \u00d7 512 transparent PNG",
-  "browser": "Codex in-app browser",
-  "checks": "Watch/cube/card inspected in browser; numerical browser-algorithm acceptance checks recorded separately."
+  "pipeline": "model_only_alpha",
+  "example_size": [
+    640,
+    320
+  ],
+  "completed": true,
+  "download_link_visible": true,
+  "verification": "Browser UI showed Done \u2014 640 \u00d7 320 model-predicted PNG. Python contract test independently verifies unchanged RGB and direct alpha encoding.",
+  "real_image_browser_pixel_parity_tested": false
 }

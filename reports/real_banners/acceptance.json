@@ -1,16 +1,16 @@
 {
   "makeup": {
     "all_rgb_pixels_unchanged": true,
-    "all_alpha_opaque": true,
-    "green_cube_preserved": true,
-    "route": "preserve_non_chroma"
+    "all_alpha_opaque": false,
+    "opaque_pixel_fraction": 0.9988432320441989,
+    "route": "model_only_alpha"
   },
   "watch": {
-    "route": "uniform_chroma_local_color_projection",
-    "maximum_positive_green_excess_in_boundary": 0,
+    "route": "model_only_alpha",
+    "maximum_positive_green_excess_in_boundary": 251,
     "alpha_at_acceptance_points": {
       "green_corner": 0,
-      "strap_opening": 0,
+      "strap_opening": 12,
       "blue_card": 255,
       "watch_face": 255
     },

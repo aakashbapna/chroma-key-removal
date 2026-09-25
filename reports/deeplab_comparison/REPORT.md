@@ -6,7 +6,7 @@
 
 The current neural model achieves 96.36% foreground IoU versus 15.16% for DeepLab’s soft-mask conversion on held-out banners. Its alpha error is 0.00657 versus 0.10370, a reduction of 93.7%. DeepLab is smaller and roughly 15.1× faster at similar input size with four CPU threads.
 
-These tables compare raw TFLite model outputs. The application additionally preserves non-chroma images intact and uses local color projection for uniform green backgrounds. Those application rules are not credited to neural-model accuracy. DeepLab has semantic class outputs rather than a transparency channel; both hard and soft foreground conversions are evaluated.
+These tables compare raw TFLite model outputs. The application now uses model-predicted alpha for every image, with unchanged input RGB and no color rules or despill. DeepLab has semantic class outputs rather than a transparency channel; both hard and soft foreground conversions are evaluated.
 
 ## Held-out offer banners
 
@@ -112,15 +112,15 @@ Green foreground stress
 
 ## User-supplied banners: training and acceptance cases
 
-The makeup image is a lavender banner, not a green-backdrop input. The user explicitly requested that it remain intact, including both decorative cubes. The application preserves all decoded RGB pixels and full opacity. The watch should retain its blue card, logo, offer text and watch while removing the exterior green and green opening in the strap.
+The makeup image is a lavender banner, not a green-backdrop input. The user explicitly requested that it remain intact, including both decorative cubes. The application preserves decoded RGB but predicts opacity with the model; complete preservation is not guaranteed. The watch should retain its blue card, logo, offer text and watch while removing the exterior green and green opening in the strap.
 
 Training added 64 exact all-opaque makeup crops and 128 weak watch crops. Watch targets are estimated from chroma colors, with confidence 0.15 away from uncertain edges; they are not independent ground truth. The follow-up used one epoch at learning rate 0.00002. These originals are excluded from held-out accuracy scores, and improved test scores cannot be attributed to the real images alone because the run also repeats existing banner/edge training.
 
-![Real examples: input, raw neural mask, application output, DeepLab soft. These images were used for training; visual acceptance only.](../real_banners/comparison.jpg)
+![Real examples: input, model-only alpha, DeepLab soft. These images were used for training; visual acceptance only.](../real_banners/comparison.jpg)
 
-Real examples: input, raw neural mask, application output, DeepLab soft. These images were used for training; visual acceptance only.
+Real examples: input, model-only alpha, DeepLab soft. These images were used for training; visual acceptance only.
 
-Acceptance checks: makeup RGB is pixel-identical to the decoded input and every alpha value is 255. On the watch, sampled background and strap opening have alpha 0, sampled card and watch face have alpha 255, and positive green excess is zero in the tested three-pixel visible boundary band. Python and browser implementations pass these checks. This does not prove perfect human-perceived boundaries everywhere.
+Current model-only acceptance measurements (8-bit alpha): {"makeup": {"all_rgb_pixels_unchanged": true, "all_alpha_opaque": false, "opaque_pixel_fraction": 0.9988432320441989, "route": "model_only_alpha"}, "watch": {"route": "model_only_alpha", "maximum_positive_green_excess_in_boundary": 251, "alpha_at_acceptance_points": {"green_corner": 0, "strap_opening": 12, "blue_card": 255, "watch_face": 255}, "note": "Structural/color checks only; no hand-labeled alpha ground truth."}}. These are training examples, not independent accuracy measurements. Positive boundary green excess exposes remaining spill; no correction is applied.
 
 ## Protocol, assumptions and uncertainty
 
@@ -148,7 +148,7 @@ Input normalization was selected independently for hard and soft decoding by val
 | edge_cases:deeplab_hard_minus_banner_real | 0.09267 | [0.07541, 0.11130] |
 | edge_cases:deeplab_soft_minus_banner_real | 0.08839 | [0.07378, 0.10395] |
 
-Positive differences favor the current model. Intervals use 5,000 paired bootstrap resamples of 18 product clusters, preserving correlated variants. They do not estimate uncertainty over arbitrary future banners. Matching green foreground/background is inherently ambiguous; unseen gradients and fine translucency remain limitations. The conservative no-green guard can preserve a partially green image if too little key color touches its border.
+Positive differences favor the current model. Intervals use 5,000 paired bootstrap resamples of 18 product clusters, preserving correlated variants. They do not estimate uncertainty over arbitrary future banners. Matching green foreground/background is inherently ambiguous; unseen gradients and fine translucency remain limitations. The alpha-only model does not reconstruct foreground RGB, so residual green fringes remain possible.
 
 ## Reproduce and inspect
 

@@ -20,7 +20,7 @@ Existing generated images supplied 348 offer-banner derivatives: 304 weak traini
 
 ## Supplied real banners
 
-Local files are `datasets/real_banners/makeup.jpg` and `watch.jpg`. The user requested that the makeup banner—including lavender background and both cubes—stay intact, giving an exact all-opaque target. The watch's pseudo-alpha is estimated by local chroma color projection, with confidence 0.15 away from uncertain boundaries; it is not a hand-labeled target.
+Local files are `datasets/real_banners/makeup.jpg` and `watch.jpg`. The user requested that the makeup banner—including lavender background and both cubes—stay intact, giving an exact all-opaque target. The watch's pseudo-alpha was previously estimated by local chroma color projection and is now a frozen training annotation, with confidence 0.15 away from uncertain boundaries; it is not a hand-labeled target.
 
 64 makeup crops and 128 watch crops were added to the follow-up training run. Both originals are training/acceptance examples, never included in independent accuracy metrics. Watch acceptance checks verify selected transparent/opaque locations and remaining green excess at the visible boundary; they cannot establish true alpha accuracy.
 
@@ -31,3 +31,5 @@ Raw/downloaded/generated source images and optimizer checkpoints stay local and 
 ## Additional derivatives
 
 `datasets/real_variants/manifest.jsonl` records 256 more full-banner derivatives from the same two user sources, all training-only. Makeup: 128 variants with complete artwork retained, slight rotations and varied surrounding colors; exact all-opaque targets. Watch: 128 recomposites across pure/dark/off-green backgrounds, floor gradients, green spill, compression, smaller placement and soft edges; alpha inherited from the estimated source cutout, confidence 0.15. None is an independent test example. No extra API calls or weight updates were made when generating these derivatives.
+
+Current inference is model-only. Dataset compositing and historical pseudo-labels are training operations, not runtime cleanup. Local annotation PNGs live in `datasets/real_banners/annotations/` and are required by real-image preparation commands.

@@ -7,7 +7,7 @@ import json,hashlib
 from pathlib import Path
 import numpy as np
 from PIL import Image,ImageDraw,ImageOps
-from chroma import ROOT,refine_uniform
+from chroma import ROOT
 OUT=ROOT/'datasets/real_variants'
 CASES=['pure_green','dark_green','off_green','floor_gradient','green_spill','heavy_jpeg','small_layout','soft_edges']
 def main():
@@ -15,7 +15,7 @@ def main():
  for subject in ['makeup','watch']:
   source=ROOT/'datasets/real_banners'/f'{subject}.jpg';im=Image.open(source).convert('RGB');x=np.asarray(im,np.float32)/255
   if subject=='watch':
-   alpha,color=refine_uniform(x);source_rgba=Image.fromarray(np.uint8(np.round(np.concatenate([color,alpha[...,None]],-1)*255)))
+   source_rgba=Image.open(ROOT/'datasets/real_banners/annotations/watch.png').convert('RGBA')
   else:source_rgba=im.convert('RGBA')
   for k in range(128):
    seed=890000+(10000 if subject=='watch' else 0)+k;rng=np.random.default_rng(seed);case=CASES[k%len(CASES)] if subject=='watch' else ['lavender','cream','blue','pink'][k%4]

@@ -7,13 +7,12 @@ import numpy as np
 from PIL import Image
 from scipy.ndimage import minimum_filter
 from banner_data import ROOT
-from chroma import refine_uniform
 OUT=ROOT/'datasets/real_banners';rows=[]
 for name,count in [('makeup',64),('watch',128)]:
     path=OUT/f'{name}.jpg';rgb=np.asarray(Image.open(path).convert('RGB'),np.float32)/255;h,w=rgb.shape[:2]
     if name=='makeup':alpha=np.ones((h,w),np.float32);confidence=np.ones_like(alpha)
     else:
-        alpha,_=refine_uniform(rgb);sure=(alpha<.01)|(alpha>.99);confidence=minimum_filter(sure.astype(np.float32),size=9)*.15
+        alpha=np.asarray(Image.open(OUT/'annotations/watch.png').getchannel('A'),np.float32)/255;sure=(alpha<.01)|(alpha>.99);confidence=minimum_filter(sure.astype(np.float32),size=9)*.15
     for k in range(count):
         rng=np.random.default_rng(62000+k+(1000 if name=='watch' else 0));size=int(rng.choice([128,192,256]));size=min(size,h,w)
         if name=='makeup' and k<32:cx,cy=int(w*.94),int(h*.14)
