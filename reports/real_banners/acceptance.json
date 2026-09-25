@@ -1,0 +1,19 @@
+{
+  "makeup": {
+    "all_rgb_pixels_unchanged": true,
+    "all_alpha_opaque": true,
+    "green_cube_preserved": true,
+    "route": "preserve_non_chroma"
+  },
+  "watch": {
+    "route": "uniform_chroma_local_color_projection",
+    "maximum_positive_green_excess_in_boundary": 0,
+    "alpha_at_acceptance_points": {
+      "green_corner": 0,
+      "strap_opening": 0,
+      "blue_card": 255,
+      "watch_face": 255
+    },
+    "note": "Structural/color checks only; no hand-labeled alpha ground truth."
+  }
+}

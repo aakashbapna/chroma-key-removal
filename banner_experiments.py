@@ -12,7 +12,7 @@ import numpy as np
 from PIL import Image
 import tensorflow as tf
 from banner_data import ROOT,records,load_sample
-from train_v2 import alpha_loss
+from training_loss import alpha_loss
 
 def edge_records(split):
     return [r for r in map(json.loads,(ROOT/'datasets/banner_edges/manifest.jsonl').read_text().splitlines()) if r['split']==split]
@@ -73,6 +73,8 @@ def evaluate(path,run):
 def train(args):
     tf.keras.utils.set_random_seed(args.seed);tf.config.threading.set_intra_op_parallelism_threads(6);tf.config.threading.set_inter_op_parallelism_threads(2)
     rows=records('train',include_weak=not args.no_weak)+(edge_records('train') if args.edges else [])
+    real_rows=list(map(json.loads,(ROOT/'datasets/real_banners/manifest.jsonl').read_text().splitlines())) if args.real else []
+    rows+=real_rows
     # Fixed validation for comparable selection across runs, including edge cases.
     vx,vy=training_arrays(records('validation')+edge_records('validation'),99021)
     model=tf.keras.models.load_model(ROOT/args.source,compile=False)
@@ -87,11 +89,11 @@ def train(args):
         h=model.fit(x,y,validation_data=(vx,vy),batch_size=12,epochs=1,verbose=2,callbacks=[progress]).history
         val=float(h['val_loss'][0]);history.append({'epoch':epoch+1,'loss':float(h['loss'][0]),'val_loss':val})
         if val<best:best=val;model.save(folder/'best.keras')
-        (reportdir/'training.json').write_text(json.dumps({'source':args.source,'parameters':model.count_params(),'training_examples_per_epoch':len(rows),'weak_examples':sum('weak_alpha' in r for r in rows),'edge_examples':1024 if args.edges else 0,'initial_validation_loss':initial,'best_validation_loss':best,'selection':'minimum fixed validation loss including unchanged starting checkpoint','epochs':history,'seconds':time.time()-start,'seed':args.seed,'learning_rate':args.lr},indent=2))
+        (reportdir/'training.json').write_text(json.dumps({'source':args.source,'parameters':model.count_params(),'real_example_crops':len(real_rows),'training_examples_per_epoch':len(rows),'weak_examples':sum('weak_alpha' in r and r.get('source')!='user_supplied_makeup' for r in rows),'real_exact_opaque_crops':sum(r.get('source')=='user_supplied_makeup' for r in rows),'real_weak_crops':sum(r.get('source')=='user_supplied_watch' for r in rows),'edge_examples':1024 if args.edges else 0,'initial_validation_loss':initial,'best_validation_loss':best,'selection':'minimum fixed validation loss including unchanged starting checkpoint','epochs':history,'seconds':time.time()-start,'seed':args.seed,'learning_rate':args.lr},indent=2))
         print('EPOCH_REPORT',json.dumps(history[-1]),flush=True)
     model=tf.keras.models.load_model(folder/'best.keras',compile=False);path=export(model,folder);evaluate(path,args.run)
 
 if __name__=='__main__':
-    ap=argparse.ArgumentParser();ap.add_argument('mode',choices=['train','evaluate']);ap.add_argument('--source',default='models/v3/resume.keras');ap.add_argument('--run',default='banner_run1');ap.add_argument('--epochs',type=int,default=2);ap.add_argument('--seed',type=int,default=4100);ap.add_argument('--lr',type=float,default=.0001);ap.add_argument('--edges',action='store_true');ap.add_argument('--no-weak',action='store_true');args=ap.parse_args()
+    ap=argparse.ArgumentParser();ap.add_argument('mode',choices=['train','evaluate']);ap.add_argument('--source',default='models/v3/resume.keras');ap.add_argument('--run',default='banner_run1');ap.add_argument('--epochs',type=int,default=2);ap.add_argument('--seed',type=int,default=4100);ap.add_argument('--lr',type=float,default=.0001);ap.add_argument('--edges',action='store_true');ap.add_argument('--no-weak',action='store_true');ap.add_argument('--real',action='store_true');args=ap.parse_args()
     if args.mode=='train':train(args)
     else:evaluate(ROOT/args.source,args.run)

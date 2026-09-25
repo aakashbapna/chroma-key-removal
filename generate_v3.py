@@ -4,7 +4,7 @@ from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor
 import requests
 from PIL import Image
-from generate_products import SUBJECTS
+from product_subjects import SUBJECTS
 ROOT=Path(__file__).resolve().parent
 MORE=['red toaster with chrome levers','white ceramic teapot','brown hiking boot with rugged sole','blue tennis racket with fine strings','yellow bicycle helmet with ventilation holes','silver bicycle with thin spokes','black game controller','pink hair dryer','white standing fan with wire grille','silver kitchen whisk','red scissors with open handles','brown woven basket','blue umbrella opened fully','silver fountain pen','black microphone with mesh grille','white charging cable coiled loosely','purple yoga mat rolled up','red insulated water bottle','tan leather belt with metal buckle','black office chair with mesh back','blue suitcase with extended handle','white sneaker viewed from the sole','bronze desk clock with thin hands','red ceramic vase','black tripod with slender legs','orange safety vest with reflective strips']
 SUBJECTS100=[(s,v) for s in SUBJECTS+MORE for v in ['front three-quarter view','side view with fine product details visible']]

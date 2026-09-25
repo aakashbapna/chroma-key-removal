@@ -1,0 +1,1373 @@
+{
+  "scope": "18 unique held-out product assets, one banner per product, six per background. Diagnostic subset only; not additional independent test sources. Native labels retained. Banner uses native-resolution halo-protected tiles with two CPU threads; DeepLab uses one global 257px prediction with two CPU threads and mask upsampling. Different work makes these deployment-path timings, not equal-work model benchmarks. Both timings include their array preprocessing but exclude image-file loading.",
+  "methods": {
+    "banner_real": {
+      "overall": {
+        "images": 18,
+        "pixel_accuracy": 0.9964981720227153,
+        "precision": 0.9796124634199976,
+        "recall": 0.99141249756584,
+        "specificity": 0.9971906290199689,
+        "balanced_accuracy": 0.9943015632929044,
+        "f1": 0.9854771585643286,
+        "iou": 0.9713701045604457,
+        "alpha_mae": 0.007069722438851993,
+        "soft_edge_mae": 0.06601417726940578,
+        "text_alpha_mae": 0.035560176190402776,
+        "background_leakage": 0.0028642707345877877,
+        "seconds": 3.226673803395695,
+        "text_core_recall": 0.9846710691899278,
+        "median_inference_ms": 3249.2146459408104,
+        "p95_inference_ms": 3468.5109827201813
+      },
+      "groups": {
+        "solid_green": {
+          "images": 6,
+          "pixel_accuracy": 0.9953530801309122,
+          "precision": 0.9691728294604345,
+          "recall": 0.9900472992357091,
+          "specificity": 0.9960231236640399,
+          "balanced_accuracy": 0.9930352114498745,
+          "f1": 0.979498861047836,
+          "iou": 0.9598214285714286,
+          "alpha_mae": 0.004618999781087041,
+          "soft_edge_mae": 0.06177826474110285,
+          "text_alpha_mae": 0.030684598721563816,
+          "background_leakage": 0.00021842813293915242,
+          "seconds": 3.0194068752850094,
+          "text_core_recall": 0.9863335386510625,
+          "median_inference_ms": 3204.3822086416185,
+          "p95_inference_ms": 3249.8190521728247
+        },
+        "green_shade": {
+          "images": 6,
+          "pixel_accuracy": 0.9973494366901677,
+          "precision": 0.9870440797906713,
+          "recall": 0.9940521596261662,
+          "specificity": 0.9978841288034428,
+          "balanced_accuracy": 0.9959681442148045,
+          "f1": 0.9905357242523063,
+          "iou": 0.9812489139535251,
+          "alpha_mae": 0.007534959974388282,
+          "soft_edge_mae": 0.06754838302731514,
+          "text_alpha_mae": 0.04258272424340248,
+          "background_leakage": 0.0043341388227418065,
+          "seconds": 3.338756069385757,
+          "text_core_recall": 0.9802323881905876,
+          "median_inference_ms": 3306.9664584472775,
+          "p95_inference_ms": 3467.4340514466166
+        },
+        "floor_gradient": {
+          "images": 6,
+          "pixel_accuracy": 0.996680282964939,
+          "precision": 0.9799340542847506,
+          "recall": 0.9892634519565535,
+          "specificity": 0.9975699970073033,
+          "balanced_accuracy": 0.9934167244819284,
+          "f1": 0.984576653341264,
+          "iou": 0.969621839581517,
+          "alpha_mae": 0.009055207561080655,
+          "soft_edge_mae": 0.06871588403979938,
+          "text_alpha_mae": 0.03341320560624202,
+          "background_leakage": 0.004040245248082404,
+          "seconds": 3.321858465516319,
+          "text_core_recall": 0.9872727876914897,
+          "median_inference_ms": 3258.5030840709805,
+          "p95_inference_ms": 3467.7447504363954
+        }
+      },
+      "samples": [
+        {
+          "id": "p0008_00",
+          "source_product_id": 8,
+          "suite": "native",
+          "group": "solid_green",
+          "counts": [
+            22044,
+            232,
+            115,
+            182409
+          ],
+          "alpha_mae": 0.0015405656304210424,
+          "soft_edge_mae": 0.06365698575973511,
+          "text_alpha_mae": 0.03557266667485237,
+          "background_leakage": 0.000143847762956284,
+          "seconds": 3.1639537923038006,
+          "text_counts": [
+            3536,
+            3622
+          ]
+        },
+        {
+          "id": "p0013_06",
+          "source_product_id": 13,
+          "suite": "native",
+          "group": "green_shade",
+          "counts": [
+            40197,
+            533,
+            102,
+            221312
+          ],
+          "alpha_mae": 0.006709935609251261,
+          "soft_edge_mae": 0.05424854904413223,
+          "text_alpha_mae": 0.026459362357854843,
+          "background_leakage": 0.0032062965910881758,
+          "seconds": 3.4650129582732916,
+          "text_counts": [
+            6015,
+            6099
+          ]
+        },
+        {
+          "id": "p0052_07",
+          "source_product_id": 52,
+          "suite": "native",
+          "group": "floor_gradient",
+          "counts": [
+            18027,
+            247,
+            351,
+            186175
+          ],
+          "alpha_mae": 0.0046770405024290085,
+          "soft_edge_mae": 0.054920732975006104,
+          "text_alpha_mae": 0.027287257835268974,
+          "background_leakage": 0.0001297849084949121,
+          "seconds": 3.2400897908955812,
+          "text_counts": [
+            3769,
+            3835
+          ]
+        },
+        {
+          "id": "p0067_00",
+          "source_product_id": 67,
+          "suite": "native",
+          "group": "solid_green",
+          "counts": [
+            9756,
+            239,
+            214,
+            194591
+          ],
+          "alpha_mae": 0.0029169991612434387,
+          "soft_edge_mae": 0.07074267417192459,
+          "text_alpha_mae": 0.035127904266119,
+          "background_leakage": 0.00017269744421355426,
+          "seconds": 3.248005833476782,
+          "text_counts": [
+            4142,
+            4216
+          ]
+        },
+        {
+          "id": "p0072_06",
+          "source_product_id": 72,
+          "suite": "native",
+          "group": "green_shade",
+          "counts": [
+            13247,
+            688,
+            186,
+            190679
+          ],
+          "alpha_mae": 0.011267473921179771,
+          "soft_edge_mae": 0.10759176313877106,
+          "text_alpha_mae": 0.040161680430173874,
+          "background_leakage": 0.005102327559143305,
+          "seconds": 3.2392950002104044,
+          "text_counts": [
+            3833,
+            3899
+          ]
+        },
+        {
+          "id": "p0074_07",
+          "source_product_id": 74,
+          "suite": "native",
+          "group": "floor_gradient",
+          "counts": [
+            18444,
+            1027,
+            629,
+            242044
+          ],
+          "alpha_mae": 0.015027390792965889,
+          "soft_edge_mae": 0.07876013964414597,
+          "text_alpha_mae": 0.032284703105688095,
+          "background_leakage": 0.010963959619402885,
+          "seconds": 3.470040417276323,
+          "text_counts": [
+            7043,
+            7089
+          ]
+        },
+        {
+          "id": "p0075_00",
+          "source_product_id": 75,
+          "suite": "native",
+          "group": "solid_green",
+          "counts": [
+            22990,
+            303,
+            184,
+            181323
+          ],
+          "alpha_mae": 0.0022125013638287783,
+          "soft_edge_mae": 0.046490684151649475,
+          "text_alpha_mae": 0.026407314464449883,
+          "background_leakage": 0.00032516391365788877,
+          "seconds": 3.2448106249794364,
+          "text_counts": [
+            5252,
+            5304
+          ]
+        },
+        {
+          "id": "p0081_06",
+          "source_product_id": 81,
+          "suite": "native",
+          "group": "green_shade",
+          "counts": [
+            41028,
+            423,
+            186,
+            163163
+          ],
+          "alpha_mae": 0.007048983592540026,
+          "soft_edge_mae": 0.05939485877752304,
+          "text_alpha_mae": 0.04444419965147972,
+          "background_leakage": 0.005539119243621826,
+          "seconds": 3.3033493757247925,
+          "text_counts": [
+            2748,
+            2773
+          ]
+        },
+        {
+          "id": "p0087_07",
+          "source_product_id": 87,
+          "suite": "native",
+          "group": "floor_gradient",
+          "counts": [
+            38867,
+            538,
+            214,
+            165181
+          ],
+          "alpha_mae": 0.006794712971895933,
+          "soft_edge_mae": 0.069858118891716,
+          "text_alpha_mae": 0.0524708554148674,
+          "background_leakage": 0.0009448846103623509,
+          "seconds": 3.243156666867435,
+          "text_counts": [
+            4074,
+            4181
+          ]
+        },
+        {
+          "id": "p0092_00",
+          "source_product_id": 92,
+          "suite": "native",
+          "group": "solid_green",
+          "counts": [
+            35409,
+            500,
+            175,
+            168716
+          ],
+          "alpha_mae": 0.0035655528772622347,
+          "soft_edge_mae": 0.04036301374435425,
+          "text_alpha_mae": 0.030657561495900154,
+          "background_leakage": 0.00015428889309987426,
+          "seconds": 3.250423458404839,
+          "text_counts": [
+            4188,
+            4220
+          ]
+        },
+        {
+          "id": "p0093_06",
+          "source_product_id": 93,
+          "suite": "native",
+          "group": "green_shade",
+          "counts": [
+            23302,
+            279,
+            176,
+            238387
+          ],
+          "alpha_mae": 0.006727326661348343,
+          "soft_edge_mae": 0.07242359966039658,
+          "text_alpha_mae": 0.058082692325115204,
+          "background_leakage": 0.004251883830875158,
+          "seconds": 3.4682410825043917,
+          "text_counts": [
+            4032,
+            4169
+          ]
+        },
+        {
+          "id": "p0109_07",
+          "source_product_id": 109,
+          "suite": "native",
+          "group": "floor_gradient",
+          "counts": [
+            17874,
+            368,
+            99,
+            186459
+          ],
+          "alpha_mae": 0.0038001835346221924,
+          "soft_edge_mae": 0.06194932013750076,
+          "text_alpha_mae": 0.03404570370912552,
+          "background_leakage": 0.0007699886336922646,
+          "seconds": 3.262096875347197,
+          "text_counts": [
+            2892,
+            2935
+          ]
+        },
+        {
+          "id": "p0142_00",
+          "source_product_id": 142,
+          "suite": "native",
+          "group": "solid_green",
+          "counts": [
+            34048,
+            241,
+            108,
+            162211
+          ],
+          "alpha_mae": 0.0035983400885015726,
+          "soft_edge_mae": 0.041702672839164734,
+          "text_alpha_mae": 0.027356069535017014,
+          "background_leakage": 0.00022437200823333114,
+          "seconds": 2.6111252503469586,
+          "text_counts": [
+            3666,
+            3717
+          ]
+        },
+        {
+          "id": "p0154_06",
+          "source_product_id": 154,
+          "suite": "native",
+          "group": "green_shade",
+          "counts": [
+            18070,
+            244,
+            111,
+            186375
+          ],
+          "alpha_mae": 0.00508880615234375,
+          "soft_edge_mae": 0.04605257511138916,
+          "text_alpha_mae": 0.042964719235897064,
+          "background_leakage": 0.0023500961251556873,
+          "seconds": 3.2460544584318995,
+          "text_counts": [
+            3737,
+            3787
+          ]
+        },
+        {
+          "id": "p0156_07",
+          "source_product_id": 156,
+          "suite": "native",
+          "group": "floor_gradient",
+          "counts": [
+            23171,
+            324,
+            138,
+            181167
+          ],
+          "alpha_mae": 0.011355288326740265,
+          "soft_edge_mae": 0.0824347510933876,
+          "text_alpha_mae": 0.027742940932512283,
+          "background_leakage": 0.00018445793830323964,
+          "seconds": 3.254909292794764,
+          "text_counts": [
+            4569,
+            4643
+          ]
+        },
+        {
+          "id": "p0158_00",
+          "source_product_id": 158,
+          "suite": "native",
+          "group": "solid_green",
+          "counts": [
+            10343,
+            2766,
+            557,
+            182942
+          ],
+          "alpha_mae": 0.013880039565265179,
+          "soft_edge_mae": 0.10771355777978897,
+          "text_alpha_mae": 0.028986075893044472,
+          "background_leakage": 0.0002901987754739821,
+          "seconds": 2.5981222921982408,
+          "text_counts": [
+            4837,
+            4897
+          ]
+        },
+        {
+          "id": "p0159_06",
+          "source_product_id": 159,
+          "suite": "native",
+          "group": "green_shade",
+          "counts": [
+            50504,
+            279,
+            354,
+            153663
+          ],
+          "alpha_mae": 0.008367233909666538,
+          "soft_edge_mae": 0.06557895243167877,
+          "text_alpha_mae": 0.04338369145989418,
+          "background_leakage": 0.005555109586566687,
+          "seconds": 3.3105835411697626,
+          "text_counts": [
+            6462,
+            6641
+          ]
+        },
+        {
+          "id": "p0194_07",
+          "source_product_id": 194,
+          "suite": "native",
+          "group": "floor_gradient",
+          "counts": [
+            25973,
+            411,
+            114,
+            235646
+          ],
+          "alpha_mae": 0.012676629237830639,
+          "soft_edge_mae": 0.0643722414970398,
+          "text_alpha_mae": 0.026647772639989853,
+          "background_leakage": 0.011248395778238773,
+          "seconds": 3.460857749916613,
+          "text_counts": [
+            7363,
+            7410
+          ]
+        }
+      ]
+    },
+    "deeplab_hard": {
+      "overall": {
+        "images": 18,
+        "pixel_accuracy": 0.8796427750787815,
+        "precision": 0.4887623513649305,
+        "recall": 0.09367717581803825,
+        "specificity": 0.9866585472096407,
+        "balanced_accuracy": 0.5401678615138394,
+        "f1": 0.15722104900228417,
+        "iou": 0.08531736751017353,
+        "alpha_mae": 0.12448877986106607,
+        "soft_edge_mae": 0.31695399102237487,
+        "text_alpha_mae": 0.7644596464104123,
+        "background_leakage": 0.010649058608887825,
+        "seconds": 0.021188448804120224,
+        "text_core_recall": 0.07072401931996596,
+        "median_inference_ms": 20.894874818623066,
+        "p95_inference_ms": 22.780660493299365
+      },
+      "groups": {
+        "solid_green": {
+          "images": 6,
+          "pixel_accuracy": 0.8891461346600507,
+          "precision": 1.0,
+          "recall": 0.01134298934112091,
+          "specificity": 1.0,
+          "balanced_accuracy": 0.5056714946705605,
+          "f1": 0.022431537985962105,
+          "iou": 0.01134298934112091,
+          "alpha_mae": 0.11651669132212798,
+          "soft_edge_mae": 0.3389180153608322,
+          "text_alpha_mae": 0.7971554497877756,
+          "background_leakage": 0.0,
+          "seconds": 0.021699103992432356,
+          "text_core_recall": 0.0,
+          "median_inference_ms": 21.363395266234875,
+          "p95_inference_ms": 23.365635192021728
+        },
+        "green_shade": {
+          "images": 6,
+          "pixel_accuracy": 0.8810901176638719,
+          "precision": 0.9901992003679723,
+          "recall": 0.14928812619023488,
+          "specificity": 0.9997603858048053,
+          "balanced_accuracy": 0.5745242559975201,
+          "f1": 0.259458757868778,
+          "iou": 0.14906785980611484,
+          "alpha_mae": 0.12659502029418945,
+          "soft_edge_mae": 0.2811649565895398,
+          "text_alpha_mae": 0.7943679292996725,
+          "background_leakage": 3.0028953934409703e-05,
+          "seconds": 0.02106098582347234,
+          "text_core_recall": 0.0,
+          "median_inference_ms": 20.894874818623066,
+          "p95_inference_ms": 21.893416065722704
+        },
+        "floor_gradient": {
+          "images": 6,
+          "pixel_accuracy": 0.8696192299447408,
+          "precision": 0.23842034805890228,
+          "recall": 0.09901251554888431,
+          "specificity": 0.9620602757449022,
+          "balanced_accuracy": 0.5305363956468933,
+          "f1": 0.13991878661108412,
+          "iou": 0.0752218696710363,
+          "alpha_mae": 0.1303546279668808,
+          "soft_edge_mae": 0.3307790011167526,
+          "text_alpha_mae": 0.7018555601437887,
+          "background_leakage": 0.03191714687272906,
+          "seconds": 0.020805256596455973,
+          "text_core_recall": 0.19609211444521982,
+          "median_inference_ms": 20.69741627201438,
+          "p95_inference_ms": 21.344780921936035
+        }
+      },
+      "samples": [
+        {
+          "id": "p0008_00",
+          "source_product_id": 8,
+          "suite": "native",
+          "group": "solid_green",
+          "counts": [
+            0,
+            0,
+            22159,
+            182641
+          ],
+          "alpha_mae": 0.1089683547616005,
+          "soft_edge_mae": 0.4868205785751343,
+          "text_alpha_mae": 0.7547382712364197,
+          "background_leakage": 0.0,
+          "seconds": 0.023609374649822712,
+          "text_counts": [
+            0,
+            3622
+          ]
+        },
+        {
+          "id": "p0013_06",
+          "source_product_id": 13,
+          "suite": "native",
+          "group": "green_shade",
+          "counts": [
+            13927,
+            0,
+            26372,
+            221845
+          ],
+          "alpha_mae": 0.10355307906866074,
+          "soft_edge_mae": 0.24513553082942963,
+          "text_alpha_mae": 0.8090708255767822,
+          "background_leakage": 9.495053063801606e-07,
+          "seconds": 0.022183041088283062,
+          "text_counts": [
+            0,
+            6099
+          ]
+        },
+        {
+          "id": "p0052_07",
+          "source_product_id": 52,
+          "suite": "native",
+          "group": "floor_gradient",
+          "counts": [
+            0,
+            0,
+            18378,
+            186422
+          ],
+          "alpha_mae": 0.09773425757884979,
+          "soft_edge_mae": 0.27097275853157043,
+          "text_alpha_mae": 0.7759260535240173,
+          "background_leakage": 0.0,
+          "seconds": 0.020665999501943588,
+          "text_counts": [
+            0,
+            3835
+          ]
+        },
+        {
+          "id": "p0067_00",
+          "source_product_id": 67,
+          "suite": "native",
+          "group": "solid_green",
+          "counts": [
+            0,
+            0,
+            9970,
+            194830
+          ],
+          "alpha_mae": 0.05009586736559868,
+          "soft_edge_mae": 0.4132239818572998,
+          "text_alpha_mae": 0.813956081867218,
+          "background_leakage": 0.0,
+          "seconds": 0.02159687504172325,
+          "text_counts": [
+            0,
+            4216
+          ]
+        },
+        {
+          "id": "p0072_06",
+          "source_product_id": 72,
+          "suite": "native",
+          "group": "green_shade",
+          "counts": [
+            1449,
+            219,
+            11984,
+            191148
+          ],
+          "alpha_mae": 0.06480903923511505,
+          "soft_edge_mae": 0.28027331829071045,
+          "text_alpha_mae": 0.8128489851951599,
+          "background_leakage": 4.375262506073341e-05,
+          "seconds": 0.02075808309018612,
+          "text_counts": [
+            0,
+            3899
+          ]
+        },
+        {
+          "id": "p0074_07",
+          "source_product_id": 74,
+          "suite": "native",
+          "group": "floor_gradient",
+          "counts": [
+            1820,
+            0,
+            17253,
+            243071
+          ],
+          "alpha_mae": 0.06985490769147873,
+          "soft_edge_mae": 0.35323551297187805,
+          "text_alpha_mae": 0.8408037424087524,
+          "background_leakage": 0.0,
+          "seconds": 0.021457916125655174,
+          "text_counts": [
+            0,
+            7089
+          ]
+        },
+        {
+          "id": "p0075_00",
+          "source_product_id": 75,
+          "suite": "native",
+          "group": "solid_green",
+          "counts": [
+            0,
+            0,
+            23174,
+            181626
+          ],
+          "alpha_mae": 0.11633988469839096,
+          "soft_edge_mae": 0.3432580530643463,
+          "text_alpha_mae": 0.826790452003479,
+          "background_leakage": 0.0,
+          "seconds": 0.020805584266781807,
+          "text_counts": [
+            0,
+            5304
+          ]
+        },
+        {
+          "id": "p0081_06",
+          "source_product_id": 81,
+          "suite": "native",
+          "group": "green_shade",
+          "counts": [
+            412,
+            0,
+            40802,
+            163586
+          ],
+          "alpha_mae": 0.20307235419750214,
+          "soft_edge_mae": 0.40873947739601135,
+          "text_alpha_mae": 0.7262976765632629,
+          "background_leakage": 0.0,
+          "seconds": 0.02102454099804163,
+          "text_counts": [
+            0,
+            2773
+          ]
+        },
+        {
+          "id": "p0087_07",
+          "source_product_id": 87,
+          "suite": "native",
+          "group": "floor_gradient",
+          "counts": [
+            905,
+            779,
+            38176,
+            164940
+          ],
+          "alpha_mae": 0.19394740462303162,
+          "soft_edge_mae": 0.2590971887111664,
+          "text_alpha_mae": 0.69516521692276,
+          "background_leakage": 0.004202810116112232,
+          "seconds": 0.020523875020444393,
+          "text_counts": [
+            349,
+            4181
+          ]
+        },
+        {
+          "id": "p0092_00",
+          "source_product_id": 92,
+          "suite": "native",
+          "group": "solid_green",
+          "counts": [
+            1542,
+            0,
+            34042,
+            169216
+          ],
+          "alpha_mae": 0.17548136413097382,
+          "soft_edge_mae": 0.27237141132354736,
+          "text_alpha_mae": 0.7986248135566711,
+          "background_leakage": 0.0,
+          "seconds": 0.020418457686901093,
+          "text_counts": [
+            0,
+            4220
+          ]
+        },
+        {
+          "id": "p0093_06",
+          "source_product_id": 93,
+          "suite": "native",
+          "group": "green_shade",
+          "counts": [
+            10997,
+            58,
+            12481,
+            238608
+          ],
+          "alpha_mae": 0.050227321684360504,
+          "soft_edge_mae": 0.26513710618019104,
+          "text_alpha_mae": 0.7860563397407532,
+          "background_leakage": 0.00013547159323934466,
+          "seconds": 0.020900207571685314,
+          "text_counts": [
+            0,
+            4169
+          ]
+        },
+        {
+          "id": "p0109_07",
+          "source_product_id": 109,
+          "suite": "native",
+          "group": "floor_gradient",
+          "counts": [
+            0,
+            0,
+            17973,
+            186827
+          ],
+          "alpha_mae": 0.09016715735197067,
+          "soft_edge_mae": 0.32073909044265747,
+          "text_alpha_mae": 0.7330816388130188,
+          "background_leakage": 0.0,
+          "seconds": 0.02072883304208517,
+          "text_counts": [
+            0,
+            2935
+          ]
+        },
+        {
+          "id": "p0142_00",
+          "source_product_id": 142,
+          "suite": "native",
+          "group": "solid_green",
+          "counts": [
+            0,
+            0,
+            34156,
+            162452
+          ],
+          "alpha_mae": 0.18092288076877594,
+          "soft_edge_mae": 0.28606653213500977,
+          "text_alpha_mae": 0.788625180721283,
+          "background_leakage": 0.0,
+          "seconds": 0.022634416818618774,
+          "text_counts": [
+            0,
+            3717
+          ]
+        },
+        {
+          "id": "p0154_06",
+          "source_product_id": 154,
+          "suite": "native",
+          "group": "green_shade",
+          "counts": [
+            0,
+            0,
+            18181,
+            186619
+          ],
+          "alpha_mae": 0.09199166297912598,
+          "soft_edge_mae": 0.21375036239624023,
+          "text_alpha_mae": 0.7831469774246216,
+          "background_leakage": 0.0,
+          "seconds": 0.020889542065560818,
+          "text_counts": [
+            0,
+            3787
+          ]
+        },
+        {
+          "id": "p0156_07",
+          "source_product_id": 156,
+          "suite": "native",
+          "group": "floor_gradient",
+          "counts": [
+            0,
+            0,
+            23309,
+            181491
+          ],
+          "alpha_mae": 0.10386534035205841,
+          "soft_edge_mae": 0.48731088638305664,
+          "text_alpha_mae": 0.8098433613777161,
+          "background_leakage": 0.0,
+          "seconds": 0.020449540577828884,
+          "text_counts": [
+            0,
+            4643
+          ]
+        },
+        {
+          "id": "p0158_00",
+          "source_product_id": 158,
+          "suite": "native",
+          "group": "solid_green",
+          "counts": [
+            0,
+            0,
+            10900,
+            185708
+          ],
+          "alpha_mae": 0.06729179620742798,
+          "soft_edge_mae": 0.23176753520965576,
+          "text_alpha_mae": 0.8001978993415833,
+          "background_leakage": 0.0,
+          "seconds": 0.021129915490746498,
+          "text_counts": [
+            0,
+            4897
+          ]
+        },
+        {
+          "id": "p0159_06",
+          "source_product_id": 159,
+          "suite": "native",
+          "group": "green_shade",
+          "counts": [
+            1201,
+            0,
+            49657,
+            153942
+          ],
+          "alpha_mae": 0.24591666460037231,
+          "soft_edge_mae": 0.27395394444465637,
+          "text_alpha_mae": 0.8487867712974548,
+          "background_leakage": 0.0,
+          "seconds": 0.020610500127077103,
+          "text_counts": [
+            0,
+            6641
+          ]
+        },
+        {
+          "id": "p0194_07",
+          "source_product_id": 194,
+          "suite": "native",
+          "group": "floor_gradient",
+          "counts": [
+            11523,
+            44733,
+            14564,
+            191324
+          ],
+          "alpha_mae": 0.22655870020389557,
+          "soft_edge_mae": 0.29331856966018677,
+          "text_alpha_mae": 0.3563133478164673,
+          "background_leakage": 0.18730007112026215,
+          "seconds": 0.021005375310778618,
+          "text_counts": [
+            5552,
+            7410
+          ]
+        }
+      ]
+    },
+    "deeplab_soft": {
+      "overall": {
+        "images": 18,
+        "pixel_accuracy": 0.8840593610491071,
+        "precision": 0.5706534362776523,
+        "recall": 0.1314339395729146,
+        "specificity": 0.9865355898819522,
+        "balanced_accuracy": 0.5589847647274334,
+        "f1": 0.21365782049542734,
+        "iou": 0.11960632343948994,
+        "alpha_mae": 0.11913804854783747,
+        "soft_edge_mae": 0.2818853341870838,
+        "text_alpha_mae": 0.74134371512466,
+        "background_leakage": 0.023926900001242757,
+        "seconds": 0.020612986240949895,
+        "text_core_recall": 0.07078394477270276,
+        "median_inference_ms": 20.546396262943745,
+        "p95_inference_ms": 21.041837381199002
+      },
+      "groups": {
+        "solid_green": {
+          "images": 6,
+          "pixel_accuracy": 0.8893308897276182,
+          "precision": 1.0,
+          "recall": 0.012990738765512017,
+          "specificity": 1.0,
+          "balanced_accuracy": 0.506495369382756,
+          "f1": 0.02564828733053032,
+          "iou": 0.012990738765512017,
+          "alpha_mae": 0.11522577578822772,
+          "soft_edge_mae": 0.3174140279491742,
+          "text_alpha_mae": 0.7623406747976939,
+          "background_leakage": 0.01389408860510836,
+          "seconds": 0.02054505531365673,
+          "text_core_recall": 0.0,
+          "median_inference_ms": 20.523999352008104,
+          "p95_inference_ms": 20.920062204822898
+        },
+        "green_shade": {
+          "images": 6,
+          "pixel_accuracy": 0.8875509122522866,
+          "precision": 0.9862889215555258,
+          "recall": 0.19684951163696301,
+          "specificity": 0.9995562379706321,
+          "balanced_accuracy": 0.5982028748037975,
+          "f1": 0.328195732797339,
+          "iou": 0.19631229518661958,
+          "alpha_mae": 0.10758898220956326,
+          "soft_edge_mae": 0.24768751859664917,
+          "text_alpha_mae": 0.7875552376111349,
+          "background_leakage": 0.005923485150560737,
+          "seconds": 0.0206138266560932,
+          "text_core_recall": 0.0,
+          "median_inference_ms": 20.514062605798244,
+          "p95_inference_ms": 20.939177135005593
+        },
+        "floor_gradient": {
+          "images": 6,
+          "pixel_accuracy": 0.8758105766482469,
+          "precision": 0.33238860482103727,
+          "recall": 0.15810869973106512,
+          "specificity": 0.9619052223807026,
+          "balanced_accuracy": 0.5600069610558839,
+          "f1": 0.21428672339664045,
+          "iou": 0.12000063291473057,
+          "alpha_mae": 0.13459938764572144,
+          "soft_edge_mae": 0.2805544560154279,
+          "text_alpha_mae": 0.6741352329651514,
+          "background_leakage": 0.051963126248059176,
+          "seconds": 0.020680076753099758,
+          "text_core_recall": 0.19625826604193666,
+          "median_inference_ms": 20.597771275788546,
+          "p95_inference_ms": 21.04868763126433
+        }
+      },
+      "samples": [
+        {
+          "id": "p0008_00",
+          "source_product_id": 8,
+          "suite": "native",
+          "group": "solid_green",
+          "counts": [
+            0,
+            0,
+            22159,
+            182641
+          ],
+          "alpha_mae": 0.09974271804094315,
+          "soft_edge_mae": 0.4757138192653656,
+          "text_alpha_mae": 0.7537589073181152,
+          "background_leakage": 0.0008088814793154597,
+          "seconds": 0.020703415386378765,
+          "text_counts": [
+            0,
+            3622
+          ]
+        },
+        {
+          "id": "p0013_06",
+          "source_product_id": 13,
+          "suite": "native",
+          "group": "green_shade",
+          "counts": [
+            16646,
+            2,
+            23653,
+            221843
+          ],
+          "alpha_mae": 0.09787996113300323,
+          "soft_edge_mae": 0.22372111678123474,
+          "text_alpha_mae": 0.8062993884086609,
+          "background_leakage": 0.0020353139843791723,
+          "seconds": 0.020877459086477757,
+          "text_counts": [
+            0,
+            6099
+          ]
+        },
+        {
+          "id": "p0052_07",
+          "source_product_id": 52,
+          "suite": "native",
+          "group": "floor_gradient",
+          "counts": [
+            2115,
+            0,
+            16263,
+            186422
+          ],
+          "alpha_mae": 0.08305138349533081,
+          "soft_edge_mae": 0.25576087832450867,
+          "text_alpha_mae": 0.7602413892745972,
+          "background_leakage": 0.0059607746079564095,
+          "seconds": 0.020352208986878395,
+          "text_counts": [
+            0,
+            3835
+          ]
+        },
+        {
+          "id": "p0067_00",
+          "source_product_id": 67,
+          "suite": "native",
+          "group": "solid_green",
+          "counts": [
+            0,
+            0,
+            9970,
+            194830
+          ],
+          "alpha_mae": 0.055150002241134644,
+          "soft_edge_mae": 0.38057276606559753,
+          "text_alpha_mae": 0.7536670565605164,
+          "background_leakage": 0.00997240375727415,
+          "seconds": 0.020297500304877758,
+          "text_counts": [
+            0,
+            4216
+          ]
+        },
+        {
+          "id": "p0072_06",
+          "source_product_id": 72,
+          "suite": "native",
+          "group": "green_shade",
+          "counts": [
+            2522,
+            408,
+            10911,
+            190959
+          ],
+          "alpha_mae": 0.05846478417515755,
+          "soft_edge_mae": 0.21607370674610138,
+          "text_alpha_mae": 0.8086112141609192,
+          "background_leakage": 0.0028230007737874985,
+          "seconds": 0.020402958616614342,
+          "text_counts": [
+            0,
+            3899
+          ]
+        },
+        {
+          "id": "p0074_07",
+          "source_product_id": 74,
+          "suite": "native",
+          "group": "floor_gradient",
+          "counts": [
+            2935,
+            3,
+            16138,
+            243068
+          ],
+          "alpha_mae": 0.06702642887830734,
+          "soft_edge_mae": 0.29893380403518677,
+          "text_alpha_mae": 0.8204728960990906,
+          "background_leakage": 0.0037656216882169247,
+          "seconds": 0.021051541902124882,
+          "text_counts": [
+            0,
+            7089
+          ]
+        },
+        {
+          "id": "p0075_00",
+          "source_product_id": 75,
+          "suite": "native",
+          "group": "solid_green",
+          "counts": [
+            40,
+            0,
+            23134,
+            181626
+          ],
+          "alpha_mae": 0.10377177596092224,
+          "soft_edge_mae": 0.30139800906181335,
+          "text_alpha_mae": 0.8145387768745422,
+          "background_leakage": 0.0031522333156317472,
+          "seconds": 0.020214833319187164,
+          "text_counts": [
+            0,
+            5304
+          ]
+        },
+        {
+          "id": "p0081_06",
+          "source_product_id": 81,
+          "suite": "native",
+          "group": "green_shade",
+          "counts": [
+            1971,
+            0,
+            39243,
+            163586
+          ],
+          "alpha_mae": 0.1629696488380432,
+          "soft_edge_mae": 0.3802874982357025,
+          "text_alpha_mae": 0.713677704334259,
+          "background_leakage": 0.007991781458258629,
+          "seconds": 0.020414667204022408,
+          "text_counts": [
+            0,
+            2773
+          ]
+        },
+        {
+          "id": "p0087_07",
+          "source_product_id": 87,
+          "suite": "native",
+          "group": "floor_gradient",
+          "counts": [
+            910,
+            806,
+            38171,
+            164913
+          ],
+          "alpha_mae": 0.2017274647951126,
+          "soft_edge_mae": 0.21753603219985962,
+          "text_alpha_mae": 0.5722634792327881,
+          "background_leakage": 0.0349135622382164,
+          "seconds": 0.02067137509584427,
+          "text_counts": [
+            350,
+            4181
+          ]
+        },
+        {
+          "id": "p0092_00",
+          "source_product_id": 92,
+          "suite": "native",
+          "group": "solid_green",
+          "counts": [
+            1726,
+            0,
+            33858,
+            169216
+          ],
+          "alpha_mae": 0.1505146324634552,
+          "soft_edge_mae": 0.253396600484848,
+          "text_alpha_mae": 0.7970614433288574,
+          "background_leakage": 0.002672460861504078,
+          "seconds": 0.020344583317637444,
+          "text_counts": [
+            0,
+            4220
+          ]
+        },
+        {
+          "id": "p0093_06",
+          "source_product_id": 93,
+          "suite": "native",
+          "group": "green_shade",
+          "counts": [
+            12710,
+            97,
+            10768,
+            238569
+          ],
+          "alpha_mae": 0.05247984081506729,
+          "soft_edge_mae": 0.23308029770851135,
+          "text_alpha_mae": 0.7841861844062805,
+          "background_leakage": 0.001685161842033267,
+          "seconds": 0.020959749817848206,
+          "text_counts": [
+            0,
+            4169
+          ]
+        },
+        {
+          "id": "p0109_07",
+          "source_product_id": 109,
+          "suite": "native",
+          "group": "floor_gradient",
+          "counts": [
+            0,
+            0,
+            17973,
+            186827
+          ],
+          "alpha_mae": 0.08645724505186081,
+          "soft_edge_mae": 0.3040469288825989,
+          "text_alpha_mae": 0.7303500771522522,
+          "background_leakage": 0.002125631319358945,
+          "seconds": 0.020524167455732822,
+          "text_counts": [
+            0,
+            2935
+          ]
+        },
+        {
+          "id": "p0142_00",
+          "source_product_id": 142,
+          "suite": "native",
+          "group": "solid_green",
+          "counts": [
+            0,
+            0,
+            34156,
+            162452
+          ],
+          "alpha_mae": 0.1681705266237259,
+          "soft_edge_mae": 0.2797188460826874,
+          "text_alpha_mae": 0.7829467058181763,
+          "background_leakage": 0.0018435359233990312,
+          "seconds": 0.020724874921143055,
+          "text_counts": [
+            0,
+            3717
+          ]
+        },
+        {
+          "id": "p0154_06",
+          "source_product_id": 154,
+          "suite": "native",
+          "group": "green_shade",
+          "counts": [
+            102,
+            6,
+            18079,
+            186613
+          ],
+          "alpha_mae": 0.08268655091524124,
+          "soft_edge_mae": 0.18635134398937225,
+          "text_alpha_mae": 0.7779309153556824,
+          "background_leakage": 0.00869183149188757,
+          "seconds": 0.020459500141441822,
+          "text_counts": [
+            0,
+            3787
+          ]
+        },
+        {
+          "id": "p0156_07",
+          "source_product_id": 156,
+          "suite": "native",
+          "group": "floor_gradient",
+          "counts": [
+            0,
+            0,
+            23309,
+            181491
+          ],
+          "alpha_mae": 0.09673196077346802,
+          "soft_edge_mae": 0.4083973467350006,
+          "text_alpha_mae": 0.7836127877235413,
+          "background_leakage": 0.006302127614617348,
+          "seconds": 0.020441042259335518,
+          "text_counts": [
+            0,
+            4643
+          ]
+        },
+        {
+          "id": "p0158_00",
+          "source_product_id": 158,
+          "suite": "native",
+          "group": "solid_green",
+          "counts": [
+            0,
+            0,
+            10900,
+            185708
+          ],
+          "alpha_mae": 0.11400499939918518,
+          "soft_edge_mae": 0.21368412673473358,
+          "text_alpha_mae": 0.6720711588859558,
+          "background_leakage": 0.0649150162935257,
+          "seconds": 0.02098512463271618,
+          "text_counts": [
+            0,
+            4897
+          ]
+        },
+        {
+          "id": "p0159_06",
+          "source_product_id": 159,
+          "suite": "native",
+          "group": "green_shade",
+          "counts": [
+            2951,
+            0,
+            47907,
+            153942
+          ],
+          "alpha_mae": 0.191053107380867,
+          "soft_edge_mae": 0.24661114811897278,
+          "text_alpha_mae": 0.8346260190010071,
+          "background_leakage": 0.012313821353018284,
+          "seconds": 0.020568625070154667,
+          "text_counts": [
+            0,
+            6641
+          ]
+        },
+        {
+          "id": "p0194_07",
+          "source_product_id": 194,
+          "suite": "native",
+          "group": "floor_gradient",
+          "counts": [
+            16792,
+            44889,
+            9295,
+            191168
+          ],
+          "alpha_mae": 0.272601842880249,
+          "soft_edge_mae": 0.1986517459154129,
+          "text_alpha_mae": 0.3778707683086395,
+          "background_leakage": 0.258711040019989,
+          "seconds": 0.02104012481868267,
+          "text_counts": [
+            5556,
+            7410
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "image": "makeup",
+    "role": "training and acceptance only; no independent ground-truth alpha for watch",
+    "route": "preserve_non_chroma",
+    "model_sha256": "7ba60b184647c1fbb1b71655ce085e0ef575717b0d9f55d56d3791037404e689"
+  },
+  {
+    "image": "watch",
+    "role": "training and acceptance only; no independent ground-truth alpha for watch",
+    "route": "uniform_chroma_local_color_projection",
+    "model_sha256": "7ba60b184647c1fbb1b71655ce085e0ef575717b0d9f55d56d3791037404e689"
+  }
+]

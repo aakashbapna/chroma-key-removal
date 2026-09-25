@@ -1,10 +1,11 @@
 {
-  "selected_run": "banner_run2",
+  "selected_run": "banner_real",
   "reason": "lowest fixed validation loss, not test metrics",
   "validation_losses": {
     "banner_run1": 0.032703936100006104,
-    "banner_run2": 0.02627028338611126
+    "banner_run2": 0.02627028338611126,
+    "banner_real": 0.023396775126457214
   },
   "model_bytes": 4043076,
-  "sha256": "0add60eb5a878b1861d16c39418ba2e9d1e7aeb775731bc584de800de870469a"
+  "sha256": "7ba60b184647c1fbb1b71655ce085e0ef575717b0d9f55d56d3791037404e689"
 }

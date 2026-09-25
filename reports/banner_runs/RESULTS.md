@@ -10,6 +10,8 @@ All runs use the same 144 held-out banners and 144 synthetic edge cases from 18 
 | banner_run1 | edge_cases | 98.23% | 94.48% | 88.98% | 91.65% | 84.58% | 0.03099 | 0.06185 | 0.08424 |
 | banner_run2 | banners | 99.60% | 97.88% | 98.83% | 98.35% | 96.75% | 0.00862 | 0.05406 | 0.05724 |
 | banner_run2 | edge_cases | 98.18% | 90.58% | 92.98% | 91.76% | 84.78% | 0.02513 | 0.06096 | 0.07938 |
+| banner_real | banners | 99.55% | 97.51% | 98.80% | 98.15% | 96.36% | 0.00657 | 0.05555 | 0.05931 |
+| banner_real | edge_cases | 98.99% | 94.50% | 96.36% | 95.42% | 91.25% | 0.01505 | 0.06214 | 0.07450 |
 
 ## baseline: detailed groups
 
@@ -59,12 +61,28 @@ All runs use the same 144 held-out banners and 144 synthetic edge cases from 18 
 | tiny_text_lines | 96.35% | 98.81% | 95.24% | 0.00806 |
 | translucency | 72.76% | 98.55% | 71.98% | 0.00757 |
 
+## banner_real: detailed groups
+
+| Group | Precision | Recall | IoU | Alpha MAE ↓ |
+|---|---:|---:|---:|---:|
+| floor_gradient | 97.36% | 98.60% | 96.03% | 0.00846 |
+| green_foreground | 97.94% | 84.63% | 83.14% | 0.03027 |
+| green_shade | 98.06% | 98.79% | 96.90% | 0.00894 |
+| green_spill | 98.53% | 94.30% | 92.99% | 0.00769 |
+| heavy_jpeg | 96.58% | 98.64% | 95.32% | 0.00689 |
+| off_green | 91.00% | 99.50% | 90.58% | 0.04095 |
+| pale_floor | 97.35% | 98.78% | 96.20% | 0.00807 |
+| soft_shadow | 96.90% | 99.06% | 96.01% | 0.00772 |
+| solid_green | 97.44% | 98.83% | 96.32% | 0.00586 |
+| tiny_text_lines | 96.00% | 98.85% | 94.94% | 0.00938 |
+| translucency | 68.07% | 98.55% | 67.39% | 0.00939 |
+
 ## Training and limitations
 
-Run 1 uses 2,048 exact-label banners plus 304 low-confidence generated-image derivatives. Run 2 adds 1,024 edge-case examples. Each run uses two epochs, a 2,010,258-parameter V3 refinement network, 128×128 training inputs (a mix of global views and native crops), text-aware boundary loss and a frozen V2 branch. Each epoch changes the sampling seed. Best weights are selected using the same fixed validation set (72 banners and 72 edge cases), including the option to retain the starting checkpoint. Test results do not select checkpoints.
+Run 1 uses 2,048 exact-label banners plus 304 low-confidence generated-image derivatives. Run 2 adds 1,024 edge-case examples. The real-image follow-up uses one additional epoch, 64 fully opaque makeup crops and 128 low-confidence watch crops, retaining the original independent test split. Each run uses two epochs, a 2,010,258-parameter V3 refinement network, 128×128 training inputs (a mix of global views and native crops), text-aware boundary loss and a frozen V2 branch. Each epoch changes the sampling seed. Best weights are selected using the same fixed validation set (72 banners and 72 edge cases), including the option to retain the starting checkpoint. Test results do not select checkpoints.
 
 No new paid image-generation calls were made. The generated product regions have approximate labels with reduced confidence, while composited banners have exact compositing alpha. Source product alpha was not manually corrected. Stress cases are synthetic; RGB cannot unambiguously recover green foreground that matches the background. The RGB uncompositing step still assumes a pure-green background, so successful alpha removal does not guarantee faithful colors on pale floors or translucent objects.
 
-Native-resolution diagnostics and observed regressions are documented in [native/README.md](native/README.md).
+Native-resolution diagnostics and observed regressions are documented in [the current DeepLab report](../deeplab_comparison/REPORT.md).
 
 Per-image metrics, confusion counts, full model sizes and evaluation timings are in each run’s `metrics.json`; optimization history and validation selection are in `training.json`. Historical results elsewhere in the repository use other evaluation protocols and should not be directly compared numerically.

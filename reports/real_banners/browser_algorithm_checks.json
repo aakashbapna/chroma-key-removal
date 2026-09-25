@@ -1,0 +1,10 @@
+{
+  "makeup": {
+    "all_pixels_unchanged": true
+  },
+  "watch": {
+    "boundary_green_excess": 0,
+    "strap_hole_transparent": true,
+    "card_opaque": true
+  }
+}

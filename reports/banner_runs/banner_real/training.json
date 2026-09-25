@@ -1,0 +1,23 @@
+{
+  "source": "models/banner_latest/resume.keras",
+  "parameters": 2010258,
+  "real_example_crops": 192,
+  "training_examples_per_epoch": 3568,
+  "weak_examples": 432,
+  "edge_examples": 1024,
+  "initial_validation_loss": 0.02627028338611126,
+  "best_validation_loss": 0.023396775126457214,
+  "selection": "minimum fixed validation loss including unchanged starting checkpoint",
+  "epochs": [
+    {
+      "epoch": 1,
+      "loss": 0.013944713398814201,
+      "val_loss": 0.023396775126457214
+    }
+  ],
+  "seconds": 235.28973579406738,
+  "seed": 62000,
+  "learning_rate": 2e-05,
+  "real_exact_opaque_crops": 64,
+  "real_weak_crops": 128
+}

@@ -42,11 +42,9 @@ logs/
 *.log
 *.tmp
 
-# Per-image experiments are regenerable; keep aggregate reports and selected previews
-reports/banners_v1/evaluation/*_v2.png
-reports/banners_v1/evaluation/*_v3.png
-reports/banners_v1/evaluation/*_comparison.jpg
-!reports/banners_v1/evaluation/generated_comparison.jpg
-examples/v3/product_*.png
-examples/v3/gemini_*.png
-examples/v3/gradient_*.png
+# Keep only the current browser demo asset; historical exports live in Git history.
+examples/**
+!examples/banner_input.jpg
+archive/reports/banner_initial_evaluation/*_v2.png
+archive/reports/banner_initial_evaluation/*_v3.png
+archive/reports/banner_initial_evaluation/*_comparison.jpg

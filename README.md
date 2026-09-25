@@ -1,74 +1,70 @@
-# Green chroma matting
+# Green-background removal for product banners
 
-> **Latest: banner retraining** — [training, usage and limitations](README_BANNERS.md) · [accuracy, precision, recall, IoU and alpha error after each run](reports/banner_runs/RESULTS.md).
+A **4.04 MB TFLite model** plus conservative chroma cleanup for banners containing a product, offer text and decorative artwork. Python and browser processing stay local.
 
-> **Previous: V3** — [4.04 MB refinement model, 98 Gemini images, and floor-gradient tests](README_V3.md).
-
-> **New: larger ecommerce model.** See [README_V2.md](README_V2.md) for the 132 KB model trained on real product cutouts, held-out comparisons, generated-image test, and usage. The material below documents the original v1 experiment.
-
-A trained 3,833-parameter CNN that predicts soft transparency for JPEG artwork composited over RGB(0,255,0). Includes Python training, an 11,260-byte float16-weight TFLite model, native-resolution PNG conversion, generated examples, and a working browser demo. No paid APIs, external training assets, or cloud GPUs used.
-
-## Use
-
-From this project directory, the installed environment is ready:
+## Start here
 
 ```sh
-.venv/bin/python remove.py /path/to/banner.jpg /path/to/transparent.png
+.venv/bin/python remove.py input.jpg transparent.png
 .venv/bin/python serve.py
 ```
 
-Open http://localhost:8766/web/?model=v1 for the original model, or http://localhost:8766/web/ for the selected banner model. The demo server binds to localhost. Browser inference and PNG creation were verified in the Codex in-app browser. Files remain local; the demo downloads pinned TensorFlow.js 3.21.0 and TFLite alpha.9 runtime assets from jsDelivr. Those runtime assets are much larger than the model; 11 KB describes model weights/graph only. Deployment requires serving the model and page over HTTP(S); use the isolation headers in `serve.py`. The older alpha runtime is pinned because alpha.10 failed to initialize in the tested browser. Other browsers/devices have not been tested. For offline use, vendor the pinned JS/WASM assets and update URLs.
+Open **http://localhost:8766/web/** for the browser demo. `remove.py` is the single supported removal command. Use `--mode neural` to inspect the raw neural route; default `--mode auto`:
 
-Fresh installation uses Python 3.10 (TensorFlow 2.16.2 does not support Python 3.14):
+1. Preserves banners without a green border intact. Lavender backgrounds and green decorations inside non-green banners are not removed.
+2. Uses local foreground/background color projection and boundary despill for uniform green backdrops, including internal cutouts.
+3. Uses the selected neural model for nonuniform green backgrounds, with 256-pixel tiles, 64-pixel halo and 128-pixel stride.
+
+The uniform-green cleanup is an explicit image-processing step, not a learned-model improvement. Python uses Euclidean nearest colors; the browser uses grid-nearest colors. Both pass the supplied-image acceptance checks, but their boundary pixels need not be identical.
+
+## Results and real examples
+
+- [Complete DeepLab comparison](reports/deeplab_comparison/REPORT.md) — all model versions, precision, recall, IoU, alpha/text/edge errors, timing, assumptions and visual comparisons.
+- [Standalone HTML report](reports/deeplab_comparison/REPORT.html).
+- [Training-run history](reports/banner_runs/RESULTS.md).
+- [Watch PNG](reports/real_banners/watch_clean.png) — green exterior and strap opening removed; card and lettering retained.
+- [Makeup PNG](reports/real_banners/makeup_preserved.png) — lavender, products, lettering and both cubes preserved; decoded RGB unchanged.
+
+The current model is selected by validation loss and stored in `models/banner_latest/`. Its metadata and selection evidence are beside the TFLite file. The follow-up trained on 192 crops from the supplied images alongside existing data. The watch uses weak estimated masks; these supplied originals are **training/acceptance examples, not independent accuracy tests**.
+
+Main test scores use 144 banners and 144 synthetic edge cases from 18 held-out product assets, fitted to 256 pixels. Native-resolution checks are separate. Reports compare raw neural outputs with the supplied DeepLab file, not the complete automatic pipeline. High background-area pixel accuracy can hide poor foreground recall.
+
+## Installation
+
+Python 3.10 is used locally:
 
 ```sh
 uv venv --python python3.10 .venv
 uv pip install --python .venv/bin/python -r requirements.txt
 ```
 
-## Results and scope
+The browser loads pinned TensorFlow.js/TFLite WASM assets from jsDelivr; their download size is separate from the model. Serve via `serve.py` for the required cross-origin isolation headers. No API key is needed for inference.
 
-64 held-out procedural test composites, JPEG qualities 55–100, with text, shapes, strokes, gradients, soft and translucent edges. Training/validation/test seeds are disjoint. No real AI-generated banner dataset was supplied, so these results demonstrate synthetic-task performance, not proven superiority on production banners.
+## Training, data and evaluation
 
-| Method | Mean absolute alpha error ↓ | Soft-edge error ↓ | Foreground IoU ↑ |
-|---|---:|---:|---:|
-| Trained TFLite model | 0.02425 | 0.10926 | 0.8510 |
-| Continuous color-key baseline | 0.03137 | 0.13588 | 0.8198 |
-| Supplied DeepLab v3 | 0.15090 | 0.44805 | 0.0561 |
-
-Model size: 11,260 bytes versus 2,779,264 bytes for DeepLab (247× smaller). Native CPU median per 128×128 test image: 4.40 ms model, 12.20 ms DeepLab, 0.028 ms color key. These include wrapper preprocessing and differ in network input resolution; they are not browser latency benchmarks. The inexpensive color baseline is competitive and much faster.
-
-DeepLab output has 21 classes. Evaluation assumes class zero is background and combines all other classes as foreground. With no model documentation supplied, normalization was selected from [-1,1], [0,1], and raw RGB using eight validation samples; [-1,1] won. DeepLab is a semantic-segmentation baseline and generally discards procedural artwork. We trained from scratch for this chroma task; the supplied model's weights are not used.
-
-See `reports/metrics.json`, `reports/comparison.png`, and `reports/training.json` for evidence. Comparison columns are input, ground truth, trained model, color baseline, DeepLab.
-
-## Model contract
-
-- Input: float32 `[1,128,128,3]`, RGB values in [0,1], no mean subtraction.
-- Output: float32 `[1,128,128,1]`, alpha in [0,1]; zero transparent, one opaque.
-- Layers: 3×3 convolutions with 12/16/12 ReLU channels, then 1×1 sigmoid output. Receptive field 7×7.
-- Float16 storage, float32 I/O; built-in TFLite operators only, no Flex/custom operators.
-- Large images use 128×128 tiles with four-pixel context, keeping each central 120×120 region. Replicate padding at image edges preserves dimensions without globally resizing text.
-- Exporters must apply the same tiling and RGB normalization. `web/index.html` contains a full JS implementation.
-- PNG postprocessing snaps alpha below .01 to zero and above .99 to one, then estimates foreground RGB by inverting `C = alpha*F + (1-alpha)*green`. Low-alpha division is stabilized at .03. The model itself predicts alpha only.
-
-## Reproduce
+[Data provenance, splits and labeling](docs/DATA.md). Raw downloaded/generated/user images and optimizer checkpoints are ignored by Git. Original V3 and subsequent TFLite checkpoints remain as named experimental baselines; only `banner_latest` is the deployed default. Compact `resume.keras` checkpoints support additional training.
 
 ```sh
-.venv/bin/python train.py --epochs 12 --count 768
-.venv/bin/python evaluate.py --deeplab /Users/aakash/Downloads/deeplabv3.tflite
-.venv/bin/python verify.py
+# Existing local dataset
+.venv/bin/python build_banner_dataset.py
+.venv/bin/python build_edge_cases.py
+.venv/bin/python prepare_real_banners.py
+.venv/bin/python banner_experiments.py train --source models/banner_latest/resume.keras --run my_run --epochs 1 --edges --real --lr 0.00002
+
+# Independent comparison with your own supplied DeepLab file
+.venv/bin/python compare_deeplab_banners.py --deeplab /path/to/deeplabv3.tflite
+.venv/bin/python compare_deeplab_native.py --deeplab /path/to/deeplabv3.tflite
+.venv/bin/python write_deeplab_report.py
 ```
 
-768 generated training images and 96 validation images, 96×96, batch 16, Adam, seed 73. Weighted alpha loss emphasizes soft edges. Best checkpoint is selected by validation loss. Successful training/export took about 18 seconds locally, excluding environment setup and data generation. Data are generated in memory; stored examples use untouched test seeds. Keras weights are retained in `models/best.keras` for further training. Results may vary slightly across hardware/runtime versions.
+On a fresh checkout, use `download_products.py`, `build_banner_dataset.py --skip-generated`, and `build_edge_cases.py`, then train with `--no-weak` and without `--real` unless those local images are available. This produces a different training set from the recorded experiments. Fonts in the builder currently target macOS; adapt `FONTS` for another OS. Upstream asset changes can alter hashes and splits.
 
-`verify.py` checks TFLite against full-frame Keras inference (including tile boundaries), tiny/non-multiple image sizes, and fully transparent pure green. Maximum observed alpha difference was 0.000337. Browser smoke test loaded the actual `.tflite`, processed the sample and created a PNG download link.
+`generate_v3.py` is the only image-generation command retained. It requires `GEMINI_API_KEY` in the environment and is never invoked automatically. The earlier 100-request generation budget has been consumed; no further generation was used for the current work.
 
-## Limits and next data
+## Verification and limits
 
-Identical green foreground and background cannot be reliably separated from RGB alone. Training deliberately excludes strongly green-dominant foreground. A separate green-foreground stress set gives IoU 0.0021: genuine green artwork is usually removed. This model is for reserved green chroma backgrounds, not general background removal.
+Run `verify_banner_dataset.py`, `verify_banner_edges.py`, and `verify_real_banners.py` for local data/acceptance checks. `verify_banner_model.py` checks export fidelity and native inference. The report records the evaluated model hashes.
 
-The network has local context only; it does not recognize objects. Heavy JPEG compression, green spill, glass, shadows, bright green/yellow artwork and unfamiliar foreground textures can produce errors. Recovered foreground colors are approximate, especially on translucent edges; alpha metrics do not measure that color error. Synthetic foregrounds are gradients/noise, not photographs. The next meaningful improvement is training and testing on representative real banner/RGBA pairs; hold out whole source designs before generating variants. No claim of production readiness is made without those examples.
+Green foreground matching a green key cannot always be recovered from RGB. Nonuniform backgrounds, pale floors, translucent products, and unfamiliar thin details remain difficult. The automatic border test is conservative; it may preserve an image whose green backdrop barely touches the border. Pure-green uncompositing on the neural fallback approximates foreground color and can leave color errors on gradients.
 
-Runtime API reference: https://js.tensorflow.org/api_tflite/0.0.1-alpha.9/
-Conversion reference: https://www.tensorflow.org/api_docs/python/tf/lite/TFLiteConverter
+Superseded commands and duplicate top-level READMEs were removed. Historical evidence is under `archive/`; the prior code remains recoverable from Git commit `5ec7875`. The main README and current comparison report are the sources of truth.
