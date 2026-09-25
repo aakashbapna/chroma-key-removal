@@ -61,6 +61,10 @@ On a fresh checkout, use `download_products.py`, `build_banner_dataset.py --skip
 
 `generate_v3.py` is the only image-generation command retained. It requires `GEMINI_API_KEY` in the environment and is never invoked automatically. The earlier 100-request generation budget has been consumed; no further generation was used for the current work.
 
+## Additional local variants
+
+`augment_real_banners.py` creates 256 more training-only derivatives (128 per supplied image), including compression, scale, rotation, off-green colors, gradients and spill. Makeup artwork is never cropped and retains an all-opaque target. Watch masks inherit estimated source alpha and remain weak labels. Use `--real-variants` with the training command to include them. These additional variants have not yet been used to change the published weights. [Preview](reports/real_banners/synthetic_variants.jpg).
+
 ## Verification and limits
 
 Run `verify_banner_dataset.py`, `verify_banner_edges.py`, and `verify_real_banners.py` for local data/acceptance checks. `verify_banner_model.py` checks export fidelity and native inference. The report records the evaluated model hashes.

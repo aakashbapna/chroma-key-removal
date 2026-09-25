@@ -1,0 +1,9 @@
+{
+  "images_checked": 256,
+  "training_only": true,
+  "unique_ids": true,
+  "makeup_all_opaque": true,
+  "watch_labels_low_confidence": true,
+  "loader_passed": true,
+  "weights_unchanged": true
+}

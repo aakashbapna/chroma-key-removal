@@ -1,0 +1,10 @@
+{
+  "new_images": 256,
+  "makeup": 128,
+  "watch": 128,
+  "split": "training only; both source images previously used for training",
+  "new_api_calls": 0,
+  "makeup_contract": "No cropping; both cubes retained; exact fully opaque target",
+  "watch_label_limit": "Estimated source alpha reused, so masks remain weak supervision",
+  "weights_changed": false
+}

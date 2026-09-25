@@ -27,3 +27,7 @@ Local files are `datasets/real_banners/makeup.jpg` and `watch.jpg`. The user req
 ## Storage and loading
 
 Raw/downloaded/generated source images and optimizer checkpoints stay local and are ignored by Git. Manifests, hashes, generators, verification reports, selected result images and compact model checkpoints are tracked. All manifest paths are relative to the project root. `banner_data.py` returns RGB plus alpha/confidence/text-alpha labels and excludes weak examples from validation/test. Regenerating against a changed upstream catalog can change hashes, splits and results.
+
+## Additional derivatives
+
+`datasets/real_variants/manifest.jsonl` records 256 more full-banner derivatives from the same two user sources, all training-only. Makeup: 128 variants with complete artwork retained, slight rotations and varied surrounding colors; exact all-opaque targets. Watch: 128 recomposites across pure/dark/off-green backgrounds, floor gradients, green spill, compression, smaller placement and soft edges; alpha inherited from the estimated source cutout, confidence 0.15. None is an independent test example. No extra API calls or weight updates were made when generating these derivatives.
